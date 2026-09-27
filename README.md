@@ -6,14 +6,32 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v4** | **Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste** | **Gjeldende – STL og STEP klar** |
+| **v4.1** | **Som v4, men vegger og tak er én hette. To print totalt.** | **Gjeldende – STL og STEP klar** |
+| v4 | Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste | Erstattet av v4.1 (kar, lokk og gafler er like) |
 | v3 | Tre moduler A–M–B med svalehaleskjøt (rett spole + diamantspole) | Erstattet av v4. Modul B er printet. |
 | v2 | Ett kar med to spoler og sidekammer | Kun tegning |
 | v1 | Første tegning, én diamantspole | Kun tegning |
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v4 – gjeldende modell
+## v4.1 – gjeldende modell
+
+Samme kar, lokk, gafler og terskelstang som v4. Endringen er at begge veggene og taket er smeltet sammen til **én hette**. Den printes opp-ned: taket ligger på platen og veggene står rett opp.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v4.1/sluse_v4.1_print1_kar_og_gafler.stl` – kar (gulvet ned) + 5 gafler + terskelstang | 200 × 224 × 32 mm |
+| 2 | `stl/v4.1/sluse_v4.1_print2_hette_og_lokk.stl` – hette (taket ned) + lokk | 200 × 227 × 133 mm |
+
+- Hetta klikkes ned i karet med de samme tre tappene per vegg som i v4. Klikket mellom tak og vegg er borte.
+- Veggfoten er 12 mm bred (var 20 mm) med 45° skråkant, slik at den kan printes uten støtte når hetta står opp-ned.
+- Hetta er 133 mm høy på en bedslinger. U-formen er stivere enn to løse vegger, men bruk gjerne brim og litt lavere hastighet på yttervegg.
+- Delene finnes også hver for seg i `stl/v4.1/` og `step/v4.1/`, og samlet i `step/v4.1/sluse_v4.1_sammenstilling.step`.
+- Bilder: `tegninger/v4.1/`. Generator: `generator/sluse_v4_1_step.py`.
+
+Ikke testet på print ennå: klaringene på klikk-tappene. Mothaken på tappene har en 0,9 mm flat kant som blir et lite overheng i print 2, men det er for kort til å trenge støtte.
+
+## v4 – ett kar, løse vegger og tak (erstattet av v4.1)
 
 Ett kar på 200 × 150 mm, gulvet 32 mm over landingsbrettet:
 - **Forgang (0–90 mm):** elektronikkammer under gulvet. Lokk fra undersiden med fire M3-skruer og spor for Ø2 silikonsnor. Hull i sideveggen for PG7-kabelnippel.
