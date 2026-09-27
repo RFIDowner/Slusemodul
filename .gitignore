@@ -1,0 +1,4 @@
+# forhåndsvisninger generert av skriptene
+stl/**/*.svg
+stl/**/*.png
+__pycache__/

@@ -1,0 +1,460 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1600" viewBox="0 0 1800 1600" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1800" height="1600" fill="#ffffff"/>
+<rect x="8" y="8" width="1784" height="1584" fill="none" stroke="#222" stroke-width="2"/>
+<text x="30.0" y="40.0" font-size="22" text-anchor="start" fill="#111" font-weight="bold">DUESLUSE MED INNEBYGD 125 kHz-SPOLE – én due om gangen</text>
+<text x="30.0" y="62.0" font-size="12" text-anchor="start" fill="#333" font-weight="normal">Teknisk tegning v1 · alle mål i mm · PETG, Bambu Lab A1 · spole 10×10 cm dreid 45° i lomme under 4 mm gulv</text>
+<text x="1770.0" y="40.0" font-size="12" text-anchor="end" fill="#333" font-weight="normal">PigeonPal · sluse v1</text>
+<text x="1770.0" y="58.0" font-size="11" text-anchor="end" fill="#555" font-weight="normal">Skala: 2 px/mm i riss 1–3</text>
+<g transform="translate(130.0,150.0)">
+<text x="0.0" y="-40.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">RISS 1 – PLAN (sett ovenfra). Tak vist gjennomsiktig; spole stiplet = under gulvet.</text>
+<rect x="70.0" y="0.0" width="260.0" height="160.0" fill="#d9ead3" stroke="#222" stroke-width="1.2"/>
+<rect x="78.0" y="8.0" width="244.0" height="144.0" fill="none" stroke="#777" stroke-width="0.8" stroke-dasharray="4,3"/>
+<rect x="82.0" y="18.0" width="120.0" height="106.2" fill="none" stroke="#2e7d32" stroke-width="1.3" stroke-dasharray="6,3"/>
+<text x="86.0" y="14.0" font-size="9" text-anchor="start" fill="#2e7d32" font-weight="normal">E1 LTE-antenne: denne kanten ut ↑</text>
+<text x="86.0" y="70.0" font-size="10" text-anchor="start" fill="#2e7d32" font-weight="bold">PigeonPal PCB 60×53</text>
+<text x="86.0" y="136.2" font-size="9" text-anchor="start" fill="#2e7d32" font-weight="normal">J3/J4 RFID-kontakter: mot slusa ↓</text>
+<rect x="226.0" y="48.0" width="90.0" height="60.0" fill="none" stroke="#2e7d32" stroke-width="1.3" stroke-dasharray="6,3"/>
+<text x="230.0" y="72.0" font-size="10" text-anchor="start" fill="#2e7d32" font-weight="normal">Lesermodul 125 kHz</text>
+<text x="230.0" y="94.0" font-size="9" text-anchor="start" fill="#2e7d32" font-weight="normal">(antatt 45×30×10)</text>
+<circle cx="200.0" cy="154.0" r="12.0" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="228.0" y="142.0" font-size="9" text-anchor="start" fill="#777" font-weight="normal">kabelnippel PG7 (Ø12,5)</text>
+<circle cx="90.0" cy="148.0" r="4.4" fill="none" stroke="#777" stroke-width="1.2"/>
+<circle cx="310.0" cy="148.0" r="4.4" fill="none" stroke="#777" stroke-width="1.2"/>
+<rect x="0.0" y="160.0" width="400.0" height="300.0" fill="#e6e6e6" stroke="#222" stroke-width="1.2"/>
+<rect x="0.0" y="160.0" width="400.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="420.0" width="400.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="188.0" width="400.0" height="12.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="0.0" y="420.0" width="400.0" height="12.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<circle cx="16.0" cy="174.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="16.0" cy="446.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="384.0" cy="174.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="384.0" cy="446.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="120.0" cy="174.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="280.0" cy="174.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="120.0" cy="446.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="280.0" cy="446.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<rect x="0.0" y="188.0" width="300.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.8"/>
+<rect x="0.0" y="420.0" width="300.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.8"/>
+<rect x="0.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<rect x="64.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<rect x="128.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<rect x="192.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<rect x="256.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<rect x="284.0" y="188.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.65"/>
+<text x="24.0" y="218.0" font-size="10" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">TAKPANEL (spiler 8 / åpning 24) – kan printes 200 lang</text>
+<text x="24.0" y="218.0" font-size="10" text-anchor="start" fill="#6b4f1d" font-weight="normal">TAKPANEL (spiler 8 / åpning 24) – kan printes 200 lang</text>
+<polygon points="341.4,310.0 200.0,451.4 58.6,310.0 200.0,168.6" fill="none" stroke="#e07a10" stroke-width="3.5" stroke-dasharray="9,5"/>
+<text x="200.0" y="314.0" font-size="11" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="bold">SPOLE 10×10, dreid 45°</text>
+<text x="200.0" y="314.0" font-size="11" text-anchor="middle" fill="#e07a10" font-weight="bold">SPOLE 10×10, dreid 45°</text>
+<text x="200.0" y="338.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">i lomme fra undersiden av bunnplaten</text>
+<text x="200.0" y="338.0" font-size="9" text-anchor="middle" fill="#e07a10" font-weight="normal">i lomme fra undersiden av bunnplaten</text>
+<rect x="112.0" y="166.0" width="80.0" height="36.0" fill="none" stroke="#e07a10" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="8.0" y="190.0" font-size="9" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">lomme for kort 36×15 →</text>
+<text x="8.0" y="190.0" font-size="9" text-anchor="start" fill="#e07a10" font-weight="normal">lomme for kort 36×15 →</text>
+<line x1="200.0" y1="168.6" x2="200.0" y2="160.0" stroke="#e07a10" stroke-width="2.2" stroke-dasharray="3,2"/>
+<text x="208.0" y="190.0" font-size="9" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">← spolekabel 8 cm til nippel</text>
+<text x="208.0" y="190.0" font-size="9" text-anchor="start" fill="#e07a10" font-weight="normal">← spolekabel 8 cm til nippel</text>
+<circle cx="376.0" cy="222.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<circle cx="376.0" cy="266.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<circle cx="376.0" cy="310.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<circle cx="376.0" cy="354.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<circle cx="376.0" cy="398.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<line x1="376.0" y1="188.0" x2="376.0" y2="432.0" stroke="#111" stroke-width="0.8" stroke-dasharray="2,2"/>
+<line x1="364.0" y1="200.0" x2="364.0" y2="420.0" stroke="#111" stroke-width="2.5"/>
+<text x="356.0" y="438.0" font-size="9" text-anchor="end" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">stoppstang Ø6</text>
+<text x="356.0" y="438.0" font-size="9" text-anchor="end" fill="#111" font-weight="normal">stoppstang Ø6</text>
+<text x="416.0" y="206.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">bobs ×5 Ø6</text>
+<text x="416.0" y="226.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">deling 22</text>
+<line x1="-12.0" y1="310.0" x2="412.0" y2="310.0" stroke="#111" stroke-width="0.9" stroke-dasharray="12,4,3,4"/>
+<text x="-12.0" y="304.0" font-size="12" text-anchor="end" fill="#111" font-weight="bold">A</text>
+<text x="416.0" y="304.0" font-size="12" text-anchor="start" fill="#111" font-weight="bold">A</text>
+<line x1="-80.0" y1="358.0" x2="-16.0" y2="358.0" stroke="#111" stroke-width="2"/>
+<polygon points="-12.0,358.0 -28.0,350.0 -28.0,366.0" fill="#111" stroke="#222" stroke-width="1.2"/>
+<text x="-80.0" y="346.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">INN</text>
+<text x="-80.0" y="378.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">fra landingsbrett</text>
+<text x="416.0" y="350.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">UT</text>
+<text x="416.0" y="374.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">til slaget</text>
+<line x1="70.0" y1="0.0" x2="70.0" y2="-10.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="330.0" y1="0.0" x2="330.0" y2="-10.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="70.0" y1="-14.0" x2="330.0" y2="-14.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="67.0" y1="-11.0" x2="73.0" y2="-17.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="327.0" y1="-11.0" x2="333.0" y2="-17.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="200.0" y="-18.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">boks 130</text>
+<line x1="0.0" y1="460.0" x2="0.0" y2="486.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="300.0" y1="460.0" x2="300.0" y2="486.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="482.0" x2="300.0" y2="482.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="485.0" x2="3.0" y2="479.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="297.0" y1="485.0" x2="303.0" y2="479.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="150.0" y="478.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">tak 150</text>
+<line x1="0.0" y1="460.0" x2="0.0" y2="504.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="460.0" x2="400.0" y2="504.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="500.0" x2="400.0" y2="500.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="503.0" x2="3.0" y2="497.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="397.0" y1="503.0" x2="403.0" y2="497.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="200.0" y="496.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">200</text>
+<line x1="58.6" y1="460.0" x2="58.6" y2="522.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="341.4" y1="460.0" x2="341.4" y2="522.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="58.6" y1="518.0" x2="341.4" y2="518.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="55.6" y1="521.0" x2="61.6" y2="515.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="338.4" y1="521.0" x2="344.4" y2="515.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="200.0" y="514.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">spole-diagonal 141</text>
+<line x1="400.0" y1="200.0" x2="442.0" y2="200.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="420.0" x2="442.0" y2="420.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="446.0" y1="200.0" x2="446.0" y2="420.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="443.0" y1="203.0" x2="449.0" y2="197.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="443.0" y1="423.0" x2="449.0" y2="417.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="450.0" y="310.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 450.0 310.0)">110 innv.</text>
+<line x1="400.0" y1="160.0" x2="468.0" y2="160.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="460.0" x2="468.0" y2="460.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="472.0" y1="160.0" x2="472.0" y2="460.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="469.0" y1="163.0" x2="475.0" y2="157.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="469.0" y1="463.0" x2="475.0" y2="457.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="476.0" y="310.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 476.0 310.0)">150</text>
+<line x1="330.0" y1="0.0" x2="356.0" y2="0.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="330.0" y1="160.0" x2="356.0" y2="160.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="360.0" y1="0.0" x2="360.0" y2="160.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="357.0" y1="3.0" x2="363.0" y2="-3.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="357.0" y1="163.0" x2="363.0" y2="157.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="364.0" y="80.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 364.0 80.0)">boks 80</text>
+<line x1="80.0" y1="416.0" x2="128.0" y2="416.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="77.0" y1="419.0" x2="83.0" y2="413.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="125.0" y1="419.0" x2="131.0" y2="413.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="104.0" y="412.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">24</text>
+<line x1="64.0" y1="402.0" x2="80.0" y2="402.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="61.0" y1="405.0" x2="67.0" y2="399.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="77.0" y1="405.0" x2="83.0" y2="399.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="72.0" y="398.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">8</text>
+</g>
+<g transform="translate(150.0,760.0)">
+<text x="0.0" y="-14.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">RISS 2 – LENGDESNITT A–A gjennom løpets senter (Y = 0)</text>
+<rect x="0.0" y="250.0" width="400.0" height="24.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="34.0" width="400.0" height="20.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="64.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="128.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="192.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="256.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="320.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="384.0" y="54.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="294.0" width="400.0" height="6.0" fill="#cfcfcf" stroke="#333" stroke-width="1.2"/>
+<rect x="0.0" y="274.0" width="400.0" height="20.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="58.6" y="282.0" width="282.8" height="12.0" fill="#fff" stroke="#333" stroke-width="1.2"/>
+<rect x="58.6" y="290.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="337.4" y="290.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<text x="200.0" y="291.0" font-size="9.5" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">spolelomme 6 dyp · vikling 2×2 (plass til 3–4)</text>
+<text x="200.0" y="291.0" font-size="9.5" text-anchor="middle" fill="#e07a10" font-weight="normal">spolelomme 6 dyp · vikling 2×2 (plass til 3–4)</text>
+<text x="60.0" y="280.0" font-size="9.5" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">gulv 4 mm PETG over spolen</text>
+<text x="60.0" y="280.0" font-size="9.5" text-anchor="start" fill="#333" font-weight="normal">gulv 4 mm PETG over spolen</text>
+<rect x="0.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="64.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="128.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="192.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="256.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="284.0" y="22.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<line x1="0.0" y1="22.0" x2="300.0" y2="22.0" stroke="#8a6d3b" stroke-width="0.8" stroke-dasharray="3,2"/>
+<text x="150.0" y="16.0" font-size="10" text-anchor="middle" fill="#6b4f1d" font-weight="normal">takspiler 8, åpning 24</text>
+<rect x="370.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<circle cx="376.0" cy="42.0" r="3.4" fill="#111" stroke="#222" stroke-width="1.2"/>
+<circle cx="364.0" cy="240.0" r="6.0" fill="#fff" stroke="#111" stroke-width="1.4"/>
+<text x="364.0" y="26.0" font-size="9" text-anchor="end" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">svingaksel Ø3 rustfri</text>
+<text x="364.0" y="26.0" font-size="9" text-anchor="end" fill="#111" font-weight="normal">svingaksel Ø3 rustfri</text>
+<text x="390.0" y="242.0" font-size="9" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">stoppstang Ø6</text>
+<text x="390.0" y="242.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">stoppstang Ø6</text>
+<path d="M 376.0 160.0 q 20 12 24 40" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="236.0" y="100.0" font-size="9" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">bobs svinger kun innover →</text>
+<text x="236.0" y="100.0" font-size="9" text-anchor="start" fill="#111" font-weight="normal">bobs svinger kun innover →</text>
+<line x1="200.0" y1="274.0" x2="216.0" y2="150.0" stroke="#7a4b1e" stroke-width="3"/>
+<line x1="182.0" y1="274.0" x2="218.0" y2="274.0" stroke="#7a4b1e" stroke-width="3"/>
+<rect x="194.0" y="244.0" width="16.0" height="16.0" fill="#f5c26b" stroke="#7a4b1e" stroke-width="1.2"/>
+<text x="232.0" y="226.0" font-size="10" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">chipring 5–10 mm over gulv</text>
+<text x="232.0" y="226.0" font-size="10" text-anchor="start" fill="#7a4b1e" font-weight="normal">chipring 5–10 mm over gulv</text>
+<text x="232.0" y="248.0" font-size="10" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="bold">→ 9–14 mm fra ring til vikling</text>
+<text x="232.0" y="248.0" font-size="10" text-anchor="start" fill="#7a4b1e" font-weight="bold">→ 9–14 mm fra ring til vikling</text>
+<line x1="400.0" y1="34.0" x2="440.0" y2="34.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="274.0" x2="440.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="444.0" y1="34.0" x2="444.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="441.0" y1="37.0" x2="447.0" y2="31.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="441.0" y1="277.0" x2="447.0" y2="271.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="448.0" y="154.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 448.0 154.0)">120 åpning</text>
+<line x1="400.0" y1="274.0" x2="440.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="300.0" x2="440.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="444.0" y1="274.0" x2="444.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="441.0" y1="277.0" x2="447.0" y2="271.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="441.0" y1="303.0" x2="447.0" y2="297.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="448.0" y="287.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 448.0 287.0)">13</text>
+<line x1="400.0" y1="22.0" x2="468.0" y2="22.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="300.0" x2="468.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="472.0" y1="22.0" x2="472.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="469.0" y1="25.0" x2="475.0" y2="19.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="469.0" y1="303.0" x2="475.0" y2="297.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="476.0" y="161.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 476.0 161.0)">139 total</text>
+<line x1="0.0" y1="282.0" x2="-12.0" y2="282.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="274.0" x2="-12.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="-12.0" y1="282.0" x2="-12.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-12.0" y1="278.0" x2="-44.0" y2="262.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<text x="-52.0" y="266.0" font-size="11" text-anchor="end" fill="#1a4d8f" font-weight="normal">gulv 4</text>
+<line x1="0.0" y1="294.0" x2="-12.0" y2="294.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="282.0" x2="-12.0" y2="282.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="-12.0" y1="294.0" x2="-12.0" y2="282.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-12.0" y1="288.0" x2="-44.0" y2="288.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<text x="-52.0" y="292.0" font-size="11" text-anchor="end" fill="#1a4d8f" font-weight="normal">lomme 6</text>
+<line x1="0.0" y1="300.0" x2="-12.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="294.0" x2="-12.0" y2="294.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="-12.0" y1="300.0" x2="-12.0" y2="294.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-12.0" y1="297.0" x2="-44.0" y2="314.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<text x="-52.0" y="318.0" font-size="11" text-anchor="end" fill="#1a4d8f" font-weight="normal">deksel 3</text>
+<line x1="58.6" y1="300.0" x2="58.6" y2="330.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="341.4" y1="300.0" x2="341.4" y2="330.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="58.6" y1="326.0" x2="341.4" y2="326.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="55.6" y1="329.0" x2="61.6" y2="323.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="338.4" y1="329.0" x2="344.4" y2="323.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="200.0" y="322.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">lomme 141 (bredde i Y = 0)</text>
+<line x1="0.0" y1="300.0" x2="0.0" y2="352.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="400.0" y1="300.0" x2="400.0" y2="352.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="348.0" x2="400.0" y2="348.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="351.0" x2="3.0" y2="345.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="397.0" y1="351.0" x2="403.0" y2="345.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="200.0" y="344.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">200</text>
+</g>
+<g transform="translate(640.0,760.0)">
+<text x="0.0" y="-14.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">RISS 3 – ENDEOPPRISS sett fra inngangen (landingsbrettet)</text>
+<rect x="0.0" y="216.0" width="160.0" height="84.0" fill="#d9ead3" stroke="#333" stroke-width="1.2"/>
+<rect x="-4.0" y="210.0" width="168.0" height="6.0" fill="#c5dcbf" stroke="#333" stroke-width="1.2"/>
+<text x="12.0" y="250.0" font-size="10" text-anchor="start" fill="#111" font-weight="bold">ELEKTRONIKK</text>
+<text x="12.0" y="274.0" font-size="8.5" text-anchor="start" fill="#111" font-weight="normal">lokk m/ pakning + dryppkant</text>
+<rect x="160.0" y="294.0" width="300.0" height="6.0" fill="#cfcfcf" stroke="#333" stroke-width="1.2"/>
+<rect x="160.0" y="274.0" width="300.0" height="20.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="168.6" y="290.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="447.4" y="290.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<line x1="168.6" y1="282.0" x2="451.4" y2="282.0" stroke="#e07a10" stroke-width="1" stroke-dasharray="4,3"/>
+<rect x="160.0" y="266.0" width="40.0" height="8.0" fill="#c0cfe0" stroke="#335" stroke-width="1.2"/>
+<rect x="420.0" y="266.0" width="40.0" height="8.0" fill="#c0cfe0" stroke="#335" stroke-width="1.2"/>
+<rect x="188.0" y="34.0" width="12.0" height="240.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="420.0" y="34.0" width="12.0" height="240.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="188.0" y="22.0" width="244.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="216.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<rect x="260.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<rect x="304.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<rect x="348.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<rect x="392.0" y="42.0" width="12.0" height="224.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<line x1="188.0" y1="42.0" x2="432.0" y2="42.0" stroke="#111" stroke-width="1.5"/>
+<rect x="200.0" y="234.0" width="220.0" height="12.0" fill="#fff" stroke="#111" stroke-width="1.2"/>
+<text x="310.0" y="258.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">stoppstang – dua kan ikke gå ut igjen</text>
+<text x="310.0" y="258.0" font-size="9" text-anchor="middle" fill="#111" font-weight="normal">stoppstang – dua kan ikke gå ut igjen</text>
+<text x="310.0" y="62.0" font-size="10" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">bobs ×5 i utgangen (bak)</text>
+<text x="310.0" y="62.0" font-size="10" text-anchor="middle" fill="#111" font-weight="normal">bobs ×5 i utgangen (bak)</text>
+<text x="310.0" y="308.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">spolehjørner (Y = ±70,7) ligger under veggføttene</text>
+<text x="310.0" y="308.0" font-size="9" text-anchor="middle" fill="#e07a10" font-weight="normal">spolehjørner (Y = ±70,7) ligger under veggføttene</text>
+<line x1="200.0" y1="22.0" x2="200.0" y2="12.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="420.0" y1="22.0" x2="420.0" y2="12.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="200.0" y1="8.0" x2="420.0" y2="8.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="197.0" y1="11.0" x2="203.0" y2="5.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="417.0" y1="11.0" x2="423.0" y2="5.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="310.0" y="4.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">110</text>
+<line x1="160.0" y1="300.0" x2="160.0" y2="338.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="460.0" y1="300.0" x2="460.0" y2="338.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="160.0" y1="334.0" x2="460.0" y2="334.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="157.0" y1="337.0" x2="163.0" y2="331.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="457.0" y1="337.0" x2="463.0" y2="331.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="310.0" y="330.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">150</text>
+<line x1="0.0" y1="300.0" x2="0.0" y2="338.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="160.0" y1="300.0" x2="160.0" y2="338.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="334.0" x2="160.0" y2="334.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="337.0" x2="3.0" y2="331.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="157.0" y1="337.0" x2="163.0" y2="331.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="80.0" y="330.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">80</text>
+<line x1="460.0" y1="34.0" x2="500.0" y2="34.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="460.0" y1="274.0" x2="500.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="504.0" y1="34.0" x2="504.0" y2="274.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="501.0" y1="37.0" x2="507.0" y2="31.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="501.0" y1="277.0" x2="507.0" y2="271.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="508.0" y="154.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 508.0 154.0)">120</text>
+<line x1="0.0" y1="210.0" x2="-26.0" y2="210.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="300.0" x2="-26.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="-30.0" y1="210.0" x2="-30.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-33.0" y1="213.0" x2="-27.0" y2="207.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="-33.0" y1="303.0" x2="-27.0" y2="297.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="-34.0" y="255.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(90 -34.0 255.0)">45</text>
+<line x1="420.0" y1="258.0" x2="460.0" y2="258.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="417.0" y1="261.0" x2="423.0" y2="255.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="457.0" y1="261.0" x2="463.0" y2="255.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="440.0" y="254.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">fot 20</text>
+</g>
+<g transform="translate(1020.0,110.0)">
+<text x="0.0" y="-14.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">RISS 4 – ISOMETRISK EKSPLOSJONSRISS (deler løftet/trukket ut for oversikt)</text>
+<g transform="translate(250.0,600.0)">
+<polygon points="202.6,-71.5 349.0,13.0 349.0,-41.6 202.6,-126.1" fill="#b8c6b3" stroke="#333" stroke-width="0.9"/>
+<polygon points="439.1,-39.0 349.0,13.0 349.0,-41.6 439.1,-93.6" fill="#9ca897" stroke="#333" stroke-width="0.9"/>
+<polygon points="292.7,-178.1 439.1,-93.6 349.0,-41.6 202.6,-126.1" fill="#d9ead3" stroke="#333" stroke-width="0.9"/>
+<polygon points="198.1,-162.5 349.0,-75.4 349.0,-79.3 198.1,-166.4" fill="#a7bba2" stroke="#333" stroke-width="0.9"/>
+<polygon points="443.6,-130.0 349.0,-75.4 349.0,-79.3 443.6,-133.9" fill="#8d9e89" stroke="#333" stroke-width="0.9"/>
+<polygon points="292.7,-221.0 443.6,-133.9 349.0,-79.3 198.1,-166.4" fill="#c5dcbf" stroke="#333" stroke-width="0.9"/>
+<line x1="275.8" y1="-56.6" x2="197.0" y2="7.8" stroke="#777" stroke-width="1" stroke-dasharray="4,3"/>
+<polygon points="-84.4,93.0 140.7,222.9 140.7,219.0 -84.4,89.0" fill="#afafaf" stroke="#333" stroke-width="0.9"/>
+<polygon points="309.6,125.5 140.7,222.9 140.7,219.0 309.6,121.5" fill="#959595" stroke="#333" stroke-width="0.9"/>
+<polygon points="84.4,-8.4 309.6,121.5 140.7,219.0 -84.4,89.0" fill="#cfcfcf" stroke="#333" stroke-width="0.9"/>
+<polygon points="-84.4,44.8 140.7,174.8 140.7,161.8 -84.4,31.8" fill="#c3c3c3" stroke="#333" stroke-width="0.9"/>
+<polygon points="309.6,77.3 140.7,174.8 140.7,161.8 309.6,64.3" fill="#a5a5a5" stroke="#333" stroke-width="0.9"/>
+<polygon points="84.4,-65.6 309.6,64.3 140.7,161.8 -84.4,31.8" fill="#e6e6e6" stroke="#333" stroke-width="0.9"/>
+<polygon points="192.2,93.4 33.0,93.4 33.0,1.5 192.2,1.5" fill="none" stroke="#e07a10" stroke-width="3" stroke-dasharray="8,5"/>
+<polygon points="61.9,-52.6 287.1,77.3 287.1,72.1 61.9,-57.9" fill="#a3afbe" stroke="#333" stroke-width="0.9"/>
+<polygon points="309.6,64.3 287.1,77.3 287.1,72.1 309.6,59.1" fill="#8a95a1" stroke="#333" stroke-width="0.9"/>
+<polygon points="84.4,-70.8 309.6,59.1 287.1,72.1 61.9,-57.9" fill="#c0cfe0" stroke="#333" stroke-width="0.9"/>
+<polygon points="-84.4,31.8 140.7,161.8 140.7,156.6 -84.4,26.6" fill="#a3afbe" stroke="#333" stroke-width="0.9"/>
+<polygon points="163.2,148.8 140.7,161.8 140.7,156.6 163.2,143.6" fill="#8a95a1" stroke="#333" stroke-width="0.9"/>
+<polygon points="-61.9,13.6 163.2,143.6 140.7,156.6 -84.4,26.6" fill="#c0cfe0" stroke="#333" stroke-width="0.9"/>
+<polygon points="61.9,-143.7 287.1,-13.7 287.1,-29.3 61.9,-159.2" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="293.8,-17.6 287.1,-13.7 287.1,-29.3 293.8,-33.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="68.7,-163.2 293.8,-33.2 287.1,-29.3 61.9,-159.2" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="61.9,-159.2 70.9,-154.1 70.9,-281.4 61.9,-286.7" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="77.7,-158.0 70.9,-154.1 70.9,-281.4 77.7,-285.4" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="68.7,-290.6 77.7,-285.4 70.9,-281.4 61.9,-286.7" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="97.9,-138.5 107.0,-133.2 107.0,-260.7 97.9,-265.9" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="113.7,-137.2 107.0,-133.2 107.0,-260.7 113.7,-264.6" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="104.7,-269.8 113.7,-264.6 107.0,-260.7 97.9,-265.9" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="134.0,-117.7 143.0,-112.5 143.0,-239.8 134.0,-245.1" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="149.7,-116.4 143.0,-112.5 143.0,-239.8 149.7,-243.8" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="140.7,-249.0 149.7,-243.8 143.0,-239.8 134.0,-245.1" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="170.0,-96.9 179.0,-91.7 179.0,-219.1 170.0,-224.2" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="185.8,-95.5 179.0,-91.7 179.0,-219.1 185.8,-223.0" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="176.8,-228.2 185.8,-223.0 179.0,-219.1 170.0,-224.2" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="206.0,-76.1 215.0,-70.9 215.0,-198.2 206.0,-203.5" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="221.8,-74.8 215.0,-70.9 215.0,-198.2 221.8,-202.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="212.8,-207.3 221.8,-202.2 215.0,-198.2 206.0,-203.5" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="242.1,-55.3 251.1,-50.1 251.1,-177.5 242.1,-182.7" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="257.8,-54.0 251.1,-50.1 251.1,-177.5 257.8,-181.3" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="248.8,-186.6 257.8,-181.3 251.1,-177.5 242.1,-182.7" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="278.1,-34.5 287.1,-29.3 287.1,-156.7 278.1,-161.9" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="293.8,-33.2 287.1,-29.3 287.1,-156.7 293.8,-160.6" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="284.8,-165.8 293.8,-160.6 287.1,-156.7 278.1,-161.9" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="61.9,-286.7 287.1,-156.7 287.1,-169.7 61.9,-299.7" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="293.8,-160.6 287.1,-156.7 287.1,-169.7 293.8,-173.6" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="68.7,-303.6 293.8,-173.6 287.1,-169.7 61.9,-299.7" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="254.4,-19.5 261.2,-15.6 261.2,-161.2 254.4,-165.1" fill="#d8d8d8" stroke="#333" stroke-width="0.9"/>
+<polygon points="267.9,-19.5 261.2,-15.6 261.2,-161.2 267.9,-165.1" fill="#b7b7b7" stroke="#333" stroke-width="0.9"/>
+<polygon points="261.2,-169.0 267.9,-165.1 261.2,-161.2 254.4,-165.1" fill="#ffffff" stroke="#333" stroke-width="0.9"/>
+<polygon points="229.7,-5.2 236.4,-1.3 236.4,-146.9 229.7,-150.8" fill="#d8d8d8" stroke="#333" stroke-width="0.9"/>
+<polygon points="243.2,-5.2 236.4,-1.3 236.4,-146.9 243.2,-150.8" fill="#b7b7b7" stroke="#333" stroke-width="0.9"/>
+<polygon points="236.4,-154.7 243.2,-150.8 236.4,-146.9 229.7,-150.8" fill="#ffffff" stroke="#333" stroke-width="0.9"/>
+<polygon points="204.9,9.1 211.7,13.0 211.7,-132.6 204.9,-136.5" fill="#d8d8d8" stroke="#333" stroke-width="0.9"/>
+<polygon points="218.4,9.1 211.7,13.0 211.7,-132.6 218.4,-136.5" fill="#b7b7b7" stroke="#333" stroke-width="0.9"/>
+<polygon points="211.7,-140.4 218.4,-136.5 211.7,-132.6 204.9,-136.5" fill="#ffffff" stroke="#333" stroke-width="0.9"/>
+<polygon points="180.1,23.4 186.9,27.3 186.9,-118.3 180.1,-122.2" fill="#d8d8d8" stroke="#333" stroke-width="0.9"/>
+<polygon points="193.6,23.4 186.9,27.3 186.9,-118.3 193.6,-122.2" fill="#b7b7b7" stroke="#333" stroke-width="0.9"/>
+<polygon points="186.9,-126.1 193.6,-122.2 186.9,-118.3 180.1,-122.2" fill="#ffffff" stroke="#333" stroke-width="0.9"/>
+<polygon points="155.4,37.7 162.1,41.6 162.1,-104.0 155.4,-107.9" fill="#d8d8d8" stroke="#333" stroke-width="0.9"/>
+<polygon points="168.9,37.7 162.1,41.6 162.1,-104.0 168.9,-107.9" fill="#b7b7b7" stroke="#333" stroke-width="0.9"/>
+<polygon points="162.1,-111.8 168.9,-107.9 162.1,-104.0 155.4,-107.9" fill="#ffffff" stroke="#333" stroke-width="0.9"/>
+<polygon points="-68.7,-68.2 156.5,61.7 156.5,46.1 -68.7,-83.9" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="163.2,57.8 156.5,61.7 156.5,46.1 163.2,42.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="-61.9,-87.8 163.2,42.2 156.5,46.1 -68.7,-83.9" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="-68.7,-83.9 -59.7,-78.7 -59.7,-206.1 -68.7,-211.2" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="-52.9,-82.5 -59.7,-78.7 -59.7,-206.1 -52.9,-210.0" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="-61.9,-215.2 -52.9,-210.0 -59.7,-206.1 -68.7,-211.2" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="-32.6,-63.1 -23.6,-57.9 -23.6,-185.2 -32.6,-190.5" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="-16.9,-61.8 -23.6,-57.9 -23.6,-185.2 -16.9,-189.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="-25.9,-194.3 -16.9,-189.2 -23.6,-185.2 -32.6,-190.5" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="3.4,-42.3 12.4,-37.1 12.4,-164.5 3.4,-169.7" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="19.1,-41.0 12.4,-37.1 12.4,-164.5 19.1,-168.3" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="10.1,-173.6 19.1,-168.3 12.4,-164.5 3.4,-169.7" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="39.4,-21.5 48.4,-16.3 48.4,-143.7 39.4,-148.9" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="55.2,-20.2 48.4,-16.3 48.4,-143.7 55.2,-147.6" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="46.2,-152.8 55.2,-147.6 48.4,-143.7 39.4,-148.9" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="75.4,-0.7 84.4,4.5 84.4,-122.9 75.4,-128.1" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="91.2,0.6 84.4,4.5 84.4,-122.9 91.2,-126.8" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="82.2,-132.0 91.2,-126.8 84.4,-122.9 75.4,-128.1" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="111.5,20.1 120.5,25.3 120.5,-102.1 111.5,-107.3" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="127.2,21.4 120.5,25.3 120.5,-102.1 127.2,-106.0" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="118.2,-111.2 127.2,-106.0 120.5,-102.1 111.5,-107.3" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="147.5,40.9 156.5,46.1 156.5,-81.3 147.5,-86.5" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="163.2,42.2 156.5,46.1 156.5,-81.3 163.2,-85.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="154.2,-90.4 163.2,-85.2 156.5,-81.3 147.5,-86.5" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="-68.7,-211.2 156.5,-81.3 156.5,-94.3 -68.7,-224.2" fill="#afbbc8" stroke="#333" stroke-width="0.9"/>
+<polygon points="163.2,-85.2 156.5,-81.3 156.5,-94.3 163.2,-98.2" fill="#959ea9" stroke="#333" stroke-width="0.9"/>
+<polygon points="-61.9,-228.2 163.2,-98.2 156.5,-94.3 -68.7,-224.2" fill="#cfdcec" stroke="#333" stroke-width="0.9"/>
+<polygon points="61.9,-403.7 230.8,-306.2 230.8,-313.9 61.9,-411.4" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="237.6,-310.1 230.8,-306.2 230.8,-313.9 237.6,-317.9" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="68.7,-415.4 237.6,-317.9 230.8,-313.9 61.9,-411.4" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="-68.7,-328.2 100.2,-230.8 100.2,-238.6 -68.7,-336.1" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="107.0,-234.7 100.2,-230.8 100.2,-238.6 107.0,-242.5" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="-61.9,-339.9 107.0,-242.5 100.2,-238.6 -68.7,-336.1" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="-68.7,-328.2 -59.7,-323.1 -59.7,-330.9 -68.7,-336.1" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="77.7,-402.4 -59.7,-323.1 -59.7,-330.9 77.7,-410.2" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="68.7,-415.4 77.7,-410.2 -59.7,-330.9 -68.7,-336.1" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="-32.6,-307.4 -23.6,-302.2 -23.6,-310.1 -32.6,-315.2" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="113.7,-381.6 -23.6,-302.2 -23.6,-310.1 113.7,-389.4" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="104.7,-394.6 113.7,-389.4 -23.6,-310.1 -32.6,-315.2" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="3.4,-286.7 12.4,-281.4 12.4,-289.2 3.4,-294.4" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="149.7,-360.8 12.4,-281.4 12.4,-289.2 149.7,-368.6" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="140.7,-373.8 149.7,-368.6 12.4,-289.2 3.4,-294.4" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="39.4,-265.9 48.4,-260.7 48.4,-268.4 39.4,-273.7" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="185.8,-339.9 48.4,-260.7 48.4,-268.4 185.8,-347.8" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="176.8,-352.9 185.8,-347.8 48.4,-268.4 39.4,-273.7" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="75.4,-245.1 84.4,-239.8 84.4,-247.7 75.4,-252.9" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="221.8,-319.2 84.4,-239.8 84.4,-247.7 221.8,-326.9" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="212.8,-332.2 221.8,-326.9 84.4,-247.7 75.4,-252.9" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+<polygon points="91.2,-236.0 100.2,-230.8 100.2,-238.6 91.2,-243.8" fill="#cbc0af" stroke="#333" stroke-width="0.9"/>
+<polygon points="237.6,-310.1 100.2,-230.8 100.2,-238.6 237.6,-317.9" fill="#aca395" stroke="#333" stroke-width="0.9"/>
+<polygon points="228.5,-323.1 237.6,-317.9 100.2,-238.6 91.2,-243.8" fill="#efe3cf" stroke="#333" stroke-width="0.9"/>
+</g>
+<text x="170.0" y="935.0" font-size="10" text-anchor="start" fill="#111" font-weight="normal">Bunndeksel 3 mm (lukker spolelommen) · Bunnplate 10 mm: 6 mm lomme + 4 mm gulv – printes med gulvflaten NED</text>
+<text x="170.0" y="950.0" font-size="10" text-anchor="start" fill="#111" font-weight="normal">Veggpaneler ×2 med L-fot (printes flatt) · Bobs ×5 mellom veggene · Takpanel (printes flatt, skrus i topplistene)</text>
+<text x="170.0" y="965.0" font-size="10" text-anchor="start" fill="#111" font-weight="normal">Elektronikkboks + lokk med pakningsspor – monteres inntil bunnplaten (stiplet linje), spolekabel gjennom nippel</text>
+</g>
+<g transform="translate(60.0,1140.0)">
+<text x="0.0" y="0.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">DELELISTE (alle deler innenfor Bambu A1 256×256×256, PETG)</text>
+<text x="0.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">1</text>
+<text x="24.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Bunnplate m/ diamantlomme</text>
+<text x="270.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">200 × 150 × 10</text>
+<text x="590.0" y="22.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt, gulvflate ned (lommen opp → uten støtte)</text>
+<text x="0.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">2</text>
+<text x="24.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Bunndeksel</text>
+<text x="270.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">196 × 146 × 3</text>
+<text x="590.0" y="39.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt</text>
+<text x="0.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">3</text>
+<text x="24.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Veggpanel m/ L-fot ×2</text>
+<text x="270.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">200 × 124 × 6 (+ fot 20 × 4)</text>
+<text x="590.0" y="56.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt på siden</text>
+<text x="0.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">4</text>
+<text x="24.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Takpanel (spiler)</text>
+<text x="270.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">150 × 122 × 6 (kan lages 200)</text>
+<text x="590.0" y="73.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt</text>
+<text x="0.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">5</text>
+<text x="24.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Bobs ×5</text>
+<text x="270.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Ø6 × 112</text>
+<text x="590.0" y="90.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">liggende</text>
+<text x="0.0" y="107.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">6</text>
+<text x="24.0" y="107.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Svingaksel</text>
+<text x="270.0" y="107.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Ø3 × 150 rustfri/messing</text>
+<text x="590.0" y="107.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">kjøpes (ikke vanlig stål nær spolen)</text>
+<text x="0.0" y="124.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">7</text>
+<text x="24.0" y="124.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Stoppstang</text>
+<text x="270.0" y="124.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Ø6 × 122</text>
+<text x="590.0" y="124.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">liggende</text>
+<text x="0.0" y="141.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">8</text>
+<text x="24.0" y="141.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Elektronikkboks</text>
+<text x="270.0" y="141.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">130 × 80 × 42 (innv. 120 × 70 × 34)</text>
+<text x="590.0" y="141.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">åpning opp</text>
+<text x="0.0" y="158.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">9</text>
+<text x="24.0" y="158.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Lokk m/ pakningsspor + dryppkant</text>
+<text x="270.0" y="158.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">134 × 84 × 3</text>
+<text x="590.0" y="158.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt</text>
+<text x="0.0" y="175.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">10</text>
+<text x="24.0" y="175.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Skruer</text>
+<text x="270.0" y="175.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">M3 ×10 (boks) + treskruer 4 × 30 ×8 (føtter/plate)</text>
+<text x="590.0" y="175.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">kjøpes</text>
+<text x="0.0" y="204.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">NOTER</text>
+<text x="0.0" y="222.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">A. Spolen ligger i en diamantformet lomme fra undersiden av bunnplaten; gulv over spolen 4 mm. Ring på beinet 5–10 mm over gulv</text>
+<text x="0.0" y="237.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">   → 9–14 mm fra ring til vikling. Diamantens tråder krysser gangbanen på skrå, så foten passerer minst to ledere uansett spor.</text>
+<text x="0.0" y="252.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">B. Diamantens diagonal (141) er bredere enn løpet (110): hjørnene ligger under veggføttene. Derfor er bunnplaten 150 bred.</text>
+<text x="0.0" y="267.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">C. Ingen metall over eller rundt spolen: svingaksel og skruer i spolesonen i rustfri/messing/nylon. Treskruene sitter i hjørnene og på føttene.</text>
+<text x="0.0" y="282.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">D. Lommen har utsparing for avstemmingskortet (36×15) ved hjørnet mot boksen og en kanal for kabelen (8 cm) ut i boksens nippel.</text>
+<text x="0.0" y="297.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">E. Boksen: lokk med spor for Ø2 silikonsnor (eller TPU-pakning), dryppkant utenpå boksveggen, kabelnippel PG7. Sprutsikker under halvtak.</text>
+<text x="0.0" y="312.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">   PCB-en orienteres med E1 (LTE-antenne) mot ytterveggen, bort fra slusa; J3/J4 mot nippelen. Lesermodulens mål er ANTATT 45×30×10 – juster.</text>
+<text x="0.0" y="327.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">F. Bobs svinger bare innover (mot slaget): stoppstangen ligger på inngangssiden av bobs-ene. Dua går over spolen FØR den dytter bobs-ene</text>
+<text x="0.0" y="342.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">   → den stopper gjerne et øyeblikk på spolen = lengre lesetid. Bobs-ene hindrer også at dua flyr rett gjennom.</text>
+<text x="0.0" y="357.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">G. Taket er spiler (åpning 24) og dekker inngang + spolesone (150). Hopper duer ut oppover før bobs-ene, print takpanelet i full lengde (200).</text>
+<text x="0.0" y="372.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">H. Spileåpning 24 mm i vegger og tak: hodet kan ikke sette seg fast, kroppen kommer ikke gjennom. Alle deler er sett-gjennom → ikke «tunnel».</text>
+<text x="0.0" y="387.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">I. To løp side om side: bunnplatene stilles kant i kant (150 + 150); felles takpanel lages 244 bredt i to deler.</text>
+</g>
+</svg>

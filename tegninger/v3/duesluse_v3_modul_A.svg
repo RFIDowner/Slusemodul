@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1250" viewBox="0 0 1700 1250" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1700" height="1250" fill="#fff"/>
+<rect x="8" y="8" width="1684" height="1234" fill="none" stroke="#222" stroke-width="2"/>
+<text x="30.0" y="40.0" font-size="22" text-anchor="start" fill="#111" font-weight="bold">DUESLUSE v3 – MODUL A – RETT SPOLE (inngang)</text>
+<text x="30.0" y="62.0" font-size="12" text-anchor="start" fill="#333" font-weight="normal">Alle mål i mm · PETG, Bambu A1 · karet printes opp-ned i ett · svalehaleskjøt mot nabomodul</text>
+<text x="1670.0" y="40.0" font-size="12" text-anchor="end" fill="#333" font-weight="normal">PigeonPal · sluse v3</text>
+<text x="1670.0" y="58.0" font-size="11" text-anchor="end" fill="#555" font-weight="normal">Skala: 2 px/mm (detalj 6 px/mm)</text>
+<g transform="translate(130.0,130.0)">
+<text x="0.0" y="-34.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">PLAN – MODUL A – RETT SPOLE (inngang)</text>
+<rect x="0.0" y="0.0" width="220.0" height="300.0" fill="#e6e6e6" stroke="#222" stroke-width="1.2"/>
+<rect x="0.0" y="0.0" width="220.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="260.0" width="220.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="0.0" width="220.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="260.0" width="220.0" height="40.0" fill="#dadada" stroke="#555" stroke-width="1.2"/>
+<rect x="0.0" y="28.0" width="220.0" height="12.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="0.0" y="260.0" width="220.0" height="12.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<circle cx="20.0" cy="14.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="20.0" cy="286.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="110.0" cy="14.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="110.0" cy="286.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="200.0" cy="14.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<circle cx="200.0" cy="286.0" r="4.5" fill="none" stroke="#333" stroke-width="1.2"/>
+<rect x="0.0" y="28.0" width="220.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.8"/>
+<rect x="0.0" y="260.0" width="220.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.8"/>
+<rect x="0.0" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="40.8" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="81.6" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="122.4" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="163.2" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="204.0" y="28.0" width="16.0" height="244.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="0.9" opacity="0.6"/>
+<rect x="10.0" y="50.0" width="200.0" height="200.0" fill="none" stroke="#e07a10" stroke-width="3.5" stroke-dasharray="9,5"/>
+<text x="110.0" y="154.0" font-size="11" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="bold">SPOLE A – rett</text>
+<text x="110.0" y="154.0" font-size="11" text-anchor="middle" fill="#e07a10" font-weight="bold">SPOLE A – rett</text>
+<text x="110.0" y="178.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">tråder på tvers</text>
+<text x="110.0" y="178.0" font-size="9" text-anchor="middle" fill="#e07a10" font-weight="normal">tråder på tvers</text>
+<rect x="70.0" y="6.0" width="80.0" height="36.0" fill="none" stroke="#e07a10" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="74.0" y="40.0" font-size="8.5" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">lomme kort 36×15</text>
+<text x="74.0" y="40.0" font-size="8.5" text-anchor="start" fill="#e07a10" font-weight="normal">lomme kort 36×15</text>
+<line x1="150.0" y1="10.0" x2="220.0" y2="34.0" stroke="#e07a10" stroke-width="2" stroke-dasharray="3,2"/>
+<text x="154.0" y="26.0" font-size="8.5" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">kabel → M</text>
+<text x="154.0" y="26.0" font-size="8.5" text-anchor="start" fill="#e07a10" font-weight="normal">kabel → M</text>
+<polygon points="220.0,43.4 207.4,39.4 207.4,68.6 220.0,64.6" fill="#fff" stroke="#8e44ad" stroke-width="1.3"/>
+<polygon points="220.0,235.4 207.4,231.4 207.4,260.6 220.0,256.6" fill="#fff" stroke="#8e44ad" stroke-width="1.3"/>
+<text x="188.0" y="90.0" font-size="8.5" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">hunn ×2</text>
+<text x="188.0" y="90.0" font-size="8.5" text-anchor="middle" fill="#8e44ad" font-weight="normal">hunn ×2</text>
+<polygon points="-80.0,40.0 0.0,40.0 0.0,260.0 -80.0,260.0" fill="#f4f4f4" stroke="#333" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="-40.0" y="154.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">rampe</text>
+<text x="-40.0" y="154.0" font-size="9" text-anchor="middle" fill="#444" font-weight="normal">rampe</text>
+<text x="-40.0" y="176.0" font-size="8" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">(valgfri)</text>
+<text x="-40.0" y="176.0" font-size="8" text-anchor="middle" fill="#444" font-weight="normal">(valgfri)</text>
+<line x1="0.0" y1="300.0" x2="0.0" y2="344.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="300.0" x2="220.0" y2="344.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="340.0" x2="220.0" y2="340.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="343.0" x2="3.0" y2="337.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="217.0" y1="343.0" x2="223.0" y2="337.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="110.0" y="336.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">110</text>
+<line x1="10.0" y1="300.0" x2="10.0" y2="326.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="210.0" y1="300.0" x2="210.0" y2="326.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="10.0" y1="322.0" x2="210.0" y2="322.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="7.0" y1="325.0" x2="13.0" y2="319.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="207.0" y1="325.0" x2="213.0" y2="319.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="110.0" y="318.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">lomme 100</text>
+<line x1="220.0" y1="40.0" x2="262.0" y2="40.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="260.0" x2="262.0" y2="260.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="266.0" y1="40.0" x2="266.0" y2="260.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="263.0" y1="43.0" x2="269.0" y2="37.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="263.0" y1="263.0" x2="269.0" y2="257.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="270.0" y="150.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 270.0 150.0)">110 innv.</text>
+<line x1="220.0" y1="0.0" x2="288.0" y2="0.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="300.0" x2="288.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="292.0" y1="0.0" x2="292.0" y2="300.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="289.0" y1="3.0" x2="295.0" y2="-3.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="289.0" y1="303.0" x2="295.0" y2="297.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="296.0" y="150.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 296.0 150.0)">150</text>
+<line x1="56.8" y1="256.0" x2="81.6" y2="256.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="53.8" y1="259.0" x2="59.8" y2="253.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="78.6" y1="259.0" x2="84.6" y2="253.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="69.2" y="252.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">12</text>
+<line x1="40.8" y1="242.0" x2="56.8" y2="242.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="37.8" y1="245.0" x2="43.8" y2="239.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="53.8" y1="245.0" x2="59.8" y2="239.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="48.8" y="238.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">8</text>
+</g>
+<g transform="translate(150.0,600.0)">
+<text x="0.0" y="-14.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">LENGDESNITT A–A (Y = 0) – MODUL A – RETT SPOLE (inngang)</text>
+<rect x="0.0" y="252.0" width="220.0" height="24.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="36.0" width="220.0" height="20.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="40.8" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="81.6" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="122.4" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="163.2" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="204.0" y="56.0" width="16.0" height="196.0" fill="#cfdcec" stroke="#88a" stroke-width="0.8"/>
+<rect x="0.0" y="276.0" width="220.0" height="8.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="0.0" y="284.0" width="4.8" height="56.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="215.2" y="284.0" width="4.8" height="56.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="107.6" y="284.0" width="4.8" height="56.0" fill="#e6e6e6" stroke="#333" stroke-width="0.8"/>
+<rect x="10.0" y="284.0" width="200.0" height="12.0" fill="#fff" stroke="#333" stroke-width="1.2"/>
+<rect x="10.0" y="292.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="206.0" y="292.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="4.0" y="296.0" width="212.0" height="4.0" fill="#bbb" stroke="#333" stroke-width="0.8"/>
+<text x="110.0" y="293.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">lomme 100 bred i Y=0 · sperrelist 2 mm</text>
+<text x="110.0" y="293.0" font-size="9" text-anchor="middle" fill="#e07a10" font-weight="normal">lomme 100 bred i Y=0 · sperrelist 2 mm</text>
+<text x="110.0" y="325.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">hult – står rett på landingsbrettet</text>
+<text x="110.0" y="325.0" font-size="9" text-anchor="middle" fill="#444" font-weight="normal">hult – står rett på landingsbrettet</text>
+<rect x="0.0" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="40.8" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="81.6" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="122.4" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="163.2" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="204.0" y="24.0" width="16.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<rect x="208.0" y="276.0" width="12.0" height="60.0" fill="#fff" stroke="#8e44ad" stroke-width="1.2" stroke-dasharray="4,2"/>
+<line x1="110.0" y1="276.0" x2="126.0" y2="152.0" stroke="#7a4b1e" stroke-width="3"/>
+<line x1="92.0" y1="276.0" x2="128.0" y2="276.0" stroke="#7a4b1e" stroke-width="3"/>
+<rect x="104.0" y="246.0" width="16.0" height="16.0" fill="#f5c26b" stroke="#7a4b1e" stroke-width="1.2"/>
+<text x="138.0" y="236.0" font-size="9" text-anchor="start" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">ring 5–10 over gulv → 9–14 til vikling</text>
+<text x="138.0" y="236.0" font-size="9" text-anchor="start" fill="#7a4b1e" font-weight="normal">ring 5–10 over gulv → 9–14 til vikling</text>
+<polygon points="-120.0,340.0 0.0,340.0 0.0,276.0" fill="#f4f4f4" stroke="#333" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="-60.0" y="357.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">rampe (valgfri)</text>
+<text x="-60.0" y="357.0" font-size="9" text-anchor="middle" fill="#444" font-weight="normal">rampe (valgfri)</text>
+<line x1="220.0" y1="36.0" x2="260.0" y2="36.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="276.0" x2="260.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="264.0" y1="36.0" x2="264.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="261.0" y1="39.0" x2="267.0" y2="33.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="261.0" y1="279.0" x2="267.0" y2="273.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="268.0" y="156.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 268.0 156.0)">120</text>
+<line x1="220.0" y1="276.0" x2="260.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="340.0" x2="260.0" y2="340.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="264.0" y1="276.0" x2="264.0" y2="340.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="261.0" y1="279.0" x2="267.0" y2="273.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="261.0" y1="343.0" x2="267.0" y2="337.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="268.0" y="308.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 268.0 308.0)">32</text>
+<line x1="0.0" y1="340.0" x2="0.0" y2="384.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="220.0" y1="340.0" x2="220.0" y2="384.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="380.0" x2="220.0" y2="380.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="383.0" x2="3.0" y2="377.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="217.0" y1="383.0" x2="223.0" y2="377.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="110.0" y="376.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">110</text>
+</g>
+<g transform="translate(800.0,600.0)">
+<text x="0.0" y="-14.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">TVERRSNITT B–B (x = 55) – MODUL A – RETT SPOLE (inngang)</text>
+<rect x="0.0" y="276.0" width="300.0" height="8.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="0.0" y="284.0" width="4.8" height="56.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="295.2" y="284.0" width="4.8" height="56.0" fill="#e6e6e6" stroke="#333" stroke-width="1.2"/>
+<rect x="50.0" y="284.0" width="200.0" height="12.0" fill="#fff" stroke="#333" stroke-width="1.2"/>
+<rect x="50.0" y="292.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="246.0" y="292.0" width="4.0" height="4.0" fill="#e07a10" stroke="#e07a10" stroke-width="1.2"/>
+<rect x="44.0" y="296.0" width="212.0" height="4.0" fill="#bbb" stroke="#333" stroke-width="0.8"/>
+<rect x="87.6" y="284.0" width="4.8" height="20.0" fill="#e6e6e6" stroke="#333" stroke-width="0.7"/>
+<rect x="207.6" y="284.0" width="4.8" height="20.0" fill="#e6e6e6" stroke="#333" stroke-width="0.7"/>
+<text x="150.0" y="293.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">lomme 100 bred · sperrelist under</text>
+<text x="150.0" y="293.0" font-size="9" text-anchor="middle" fill="#e07a10" font-weight="normal">lomme 100 bred · sperrelist under</text>
+<text x="150.0" y="327.0" font-size="9" text-anchor="middle" fill="#fff" stroke="#fff" stroke-width="4" font-weight="normal">hult – åpent mot brettet</text>
+<text x="150.0" y="327.0" font-size="9" text-anchor="middle" fill="#444" font-weight="normal">hult – åpent mot brettet</text>
+<rect x="0.0" y="268.0" width="40.0" height="8.0" fill="#c0cfe0" stroke="#335" stroke-width="1.2"/>
+<rect x="260.0" y="268.0" width="40.0" height="8.0" fill="#c0cfe0" stroke="#335" stroke-width="1.2"/>
+<rect x="28.0" y="36.0" width="12.0" height="240.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="260.0" y="36.0" width="12.0" height="240.0" fill="#cfdcec" stroke="#335" stroke-width="1.2"/>
+<rect x="28.0" y="24.0" width="244.0" height="12.0" fill="#efe3cf" stroke="#8a6d3b" stroke-width="1.2"/>
+<line x1="40.0" y1="24.0" x2="40.0" y2="14.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="260.0" y1="24.0" x2="260.0" y2="14.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="40.0" y1="10.0" x2="260.0" y2="10.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="37.0" y1="13.0" x2="43.0" y2="7.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="257.0" y1="13.0" x2="263.0" y2="7.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="150.0" y="6.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">110</text>
+<line x1="0.0" y1="340.0" x2="0.0" y2="384.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="300.0" y1="340.0" x2="300.0" y2="384.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="0.0" y1="380.0" x2="300.0" y2="380.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="-3.0" y1="383.0" x2="3.0" y2="377.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="297.0" y1="383.0" x2="303.0" y2="377.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="150.0" y="376.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal">150</text>
+<line x1="300.0" y1="36.0" x2="340.0" y2="36.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="300.0" y1="276.0" x2="340.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="344.0" y1="36.0" x2="344.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="341.0" y1="39.0" x2="347.0" y2="33.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="341.0" y1="279.0" x2="347.0" y2="273.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="348.0" y="156.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 348.0 156.0)">120</text>
+<line x1="300.0" y1="276.0" x2="340.0" y2="276.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="300.0" y1="340.0" x2="340.0" y2="340.0" stroke="#1a4d8f" stroke-width="0.7"/>
+<line x1="344.0" y1="276.0" x2="344.0" y2="340.0" stroke="#1a4d8f" stroke-width="0.9"/>
+<line x1="341.0" y1="279.0" x2="347.0" y2="273.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<line x1="341.0" y1="343.0" x2="347.0" y2="337.0" stroke="#1a4d8f" stroke-width="1.1"/>
+<text x="348.0" y="308.0" font-size="11" text-anchor="middle" fill="#1a4d8f" font-weight="normal" transform="rotate(-90 348.0 308.0)">32</text>
+</g>
+<g transform="translate(1180.0,130.0)">
+<text x="0.0" y="0.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">DELER I DENNE MODULEN</text>
+<text x="0.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">1</text>
+<text x="20.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Kar</text>
+<text x="230.0" y="22.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">110 × 150 × 32</text>
+<text x="380.0" y="22.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">opp-ned, skjørt</text>
+<text x="0.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">2</text>
+<text x="20.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Veggpanel ×2 m/ L-fot</text>
+<text x="230.0" y="39.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">110 × 124 × 6</text>
+<text x="380.0" y="39.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt på siden</text>
+<text x="0.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">3</text>
+<text x="20.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Takpanel</text>
+<text x="230.0" y="56.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">110 × 122 × 6</text>
+<text x="380.0" y="56.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt</text>
+<text x="0.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">4</text>
+<text x="20.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Sperrelister ×2</text>
+<text x="230.0" y="73.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">2 × 10 × 120</text>
+<text x="380.0" y="73.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">liggende</text>
+<text x="0.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">5</text>
+<text x="20.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">Rampe (valgfri)</text>
+<text x="230.0" y="90.0" font-size="11" text-anchor="start" fill="#111" font-weight="normal">110 × 100 × 32</text>
+<text x="380.0" y="90.0" font-size="10" text-anchor="start" fill="#444" font-weight="normal">flatt</text>
+<text x="0.0" y="117.0" font-size="12" text-anchor="start" fill="#111" font-weight="bold">PETG-ESTIMAT</text>
+<text x="0.0" y="133.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Kar</text>
+<text x="230.0" y="133.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">122 cm³</text>
+<text x="320.0" y="133.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">≈ 155 g</text>
+<text x="0.0" y="148.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Veggpaneler ×2</text>
+<text x="230.0" y="148.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">103 cm³</text>
+<text x="320.0" y="148.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">≈ 131 g</text>
+<text x="0.0" y="163.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Takpanel</text>
+<text x="230.0" y="163.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">43 cm³</text>
+<text x="320.0" y="163.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">≈ 55 g</text>
+<text x="0.0" y="178.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Bobs/stopp/lister</text>
+<text x="230.0" y="178.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">5 cm³</text>
+<text x="320.0" y="178.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">≈ 6 g</text>
+<text x="0.0" y="193.0" font-size="11" text-anchor="start" fill="#111" font-weight="bold">Sum ≈ 347 g</text>
+<text x="0.0" y="219.0" font-size="13" text-anchor="start" fill="#111" font-weight="bold">NOTER</text>
+<text x="0.0" y="237.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Spole A rett i lomme fra undersiden, tråder på tvers av løpet.</text>
+<text x="0.0" y="252.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Kabel + kort (36×15) ut mot modul M gjennom notch Ø8 i endeveggen.</text>
+<text x="0.0" y="267.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Hunn-svalehaler ×2 i enden mot M. Rampe valgfri ved inngangen.</text>
+<text x="0.0" y="282.0" font-size="10.5" text-anchor="start" fill="#111" font-weight="normal">Printes opp-ned: lomme og hulrom åpner oppover → ingen støtte.</text>
+</g>
+</svg>
