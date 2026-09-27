@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v4.1** | **Som v4, men vegger og tak er én hette. To print totalt.** | **Gjeldende – STL og STEP klar** |
+| **v4.2** | **Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet.** | **Gjeldende – STL og STEP klar** |
+| v4.1 | Som v4, men vegger og tak er én hette. To print totalt. | Erstattet av v4.2 |
 | v4 | Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste | Erstattet av v4.1 (kar, lokk og gafler er like) |
 | v3 | Tre moduler A–M–B med svalehaleskjøt (rett spole + diamantspole) | Erstattet av v4. Modul B er printet. |
 | v2 | Ett kar med to spoler og sidekammer | Kun tegning |
@@ -14,7 +15,22 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v4.1 – gjeldende modell
+## v4.2 – gjeldende modell
+
+Som v4.1, med to endringer i utgangen:
+
+- **8-kantede gafler**, 6 mm over flatene, med et rundt øye (Ø9) rundt akselen. De printes liggende på en flate, uten støtte.
+- **Karkanten er stopperen.** Akselen står der den var (x = 188, 116 mm over gulvet). Gaflene henger ca. 7° på skrå fra akselen og ut over karets endekant. Endekanten har en skråflate (1,2 mm inn i toppen, 10 mm ned) som gaflene ligger flatt mot. Gaflene går 2 mm lenger ned enn skråflaten. Terskelstangen er fjernet.
+- Kontrollert i modellen: gaflene stopper mot karet med en gang de dyttes utover, og kan svinge ca. 80° innover i slaget før de treffer taket.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v4.2/sluse_v4.2_print1_kar_og_gafler.stl` – kar (gulvet ned) + 5 gafler | 200 × 219 × 32 mm |
+| 2 | `stl/v4.2/sluse_v4.2_print2_hette_og_lokk.stl` – hette (taket ned) + lokk | 200 × 227 × 133 mm |
+
+Bilder: `tegninger/v4.2/`. Generator: `generator/sluse_v4_2_step.py`.
+
+## v4.1 – vegger og tak som én hette (erstattet av v4.2)
 
 Samme kar, lokk, gafler og terskelstang som v4. Endringen er at begge veggene og taket er smeltet sammen til **én hette**. Den printes opp-ned: taket ligger på platen og veggene står rett opp.
 
