@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sluse M+A – ett kar (200 mm): elektronikkammer først (forgang), rett spole etter, gafler i utgangen.
+"""Duesluse v4 (M+A) – ett kar (200 mm): elektronikkammer først (forgang), rett spole etter, gafler i utgangen.
 Vegger og tak festes med klikk-tapper (ingen skruer). Lager STEP (montert) og STL (print-orientert).
 
 Koordinater (montert): X langs løpet (0 = inngang, 200 = utgang mot slaget), Y på tvers (0 = senter),
@@ -9,8 +9,8 @@ import math, os
 import cadquery as cq
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT_STEP = os.path.join(HERE, '..', 'step', 'sluse_MA')
-OUT_STL = os.path.join(HERE, '..', 'stl', 'sluse_MA')
+OUT_STEP = os.path.join(HERE, '..', 'step', 'v4')
+OUT_STL = os.path.join(HERE, '..', 'stl', 'v4')
 os.makedirs(OUT_STEP, exist_ok=True); os.makedirs(OUT_STL, exist_ok=True)
 
 # ---------------- hovedmål ----------------
@@ -187,27 +187,27 @@ for a, b in pairs:
 print(f'spole ∩ kar (nesene som griper spolen, forventet > 0): {coil_ref.val().intersect(k.val()).Volume():.1f}')
 
 # ======================= EKSPORT =======================
-asm = cq.Assembly(name='sluse_MA')
+asm = cq.Assembly(name='sluse_v4')
 farge = {'kar': (0.85, 0.85, 0.85), 'lokk': (0.6, 0.8, 0.6), 'vegg_hoyre': (0.72, 0.8, 0.9), 'vegg_venstre': (0.72, 0.8, 0.9),
          'tak': (0.9, 0.84, 0.72), 'terskelstang': (0.3, 0.3, 0.3)}
 for navn, wp in deler.items():
     asm.add(wp, name=navn, color=cq.Color(*farge.get(navn, (1.0, 1.0, 1.0))))
 asm.add(axle, name='aksel_rustfri_ref', color=cq.Color(0.5, 0.5, 0.55))
 asm.add(coil_ref, name='spole_referanse', color=cq.Color(0.9, 0.5, 0.1))
-asm.save(os.path.join(OUT_STEP, 'sluse_MA_sammenstilling.step'))
+asm.save(os.path.join(OUT_STEP, 'sluse_v4_sammenstilling.step'))
 for navn, wp in deler.items():
     if not navn.startswith('gaffel'):
-        cq.exporters.export(wp, os.path.join(OUT_STEP, f'sluse_MA_{navn}.step'))
+        cq.exporters.export(wp, os.path.join(OUT_STEP, f'sluse_v4_{navn}.step'))
 
 def to_bed(wp):
     bb = wp.val().BoundingBox(); return wp.translate((-bb.xmin, -bb.ymin, -bb.zmin))
 def stl(wp, name):
     cq.exporters.export(to_bed(wp), os.path.join(OUT_STL, name), tolerance=0.02, angularTolerance=0.1)
-stl(k.rotate((0, 0, 0), (1, 0, 0), 180), 'sluse_MA_kar.stl')                        # gulvflaten ned
-stl(lid, 'sluse_MA_lokk.stl')                                                        # pakningssporet opp
-stl(vegg_h.translate((0, -LANE / 2, -Z_FL)).rotate((0, 0, 0), (1, 0, 0), 90), 'sluse_MA_vegg_hoyre.stl')   # innerflaten ned
-stl(vegg_v.translate((0, LANE / 2, -Z_FL)).rotate((0, 0, 0), (1, 0, 0), -90), 'sluse_MA_vegg_venstre.stl')
-stl(tak.rotate((0, 0, 0), (1, 0, 0), 180), 'sluse_MA_tak.stl')                       # toppen ned, tappene opp
+stl(k.rotate((0, 0, 0), (1, 0, 0), 180), 'sluse_v4_kar.stl')                        # gulvflaten ned
+stl(lid, 'sluse_v4_lokk.stl')                                                        # pakningssporet opp
+stl(vegg_h.translate((0, -LANE / 2, -Z_FL)).rotate((0, 0, 0), (1, 0, 0), 90), 'sluse_v4_vegg_hoyre.stl')   # innerflaten ned
+stl(vegg_v.translate((0, LANE / 2, -Z_FL)).rotate((0, 0, 0), (1, 0, 0), -90), 'sluse_v4_vegg_venstre.stl')
+stl(tak.rotate((0, 0, 0), (1, 0, 0), 180), 'sluse_v4_tak.stl')                       # toppen ned, tappene opp
 # gafler + terskel liggende på ett brett
 plate = None
 for i, b in enumerate(bobs + [sill]):
@@ -215,5 +215,5 @@ for i, b in enumerate(bobs + [sill]):
     lay = b.rotate((0, 0, 0), (0, 1, 0), 90) if i < len(bobs) else b.rotate((0, 0, 0), (0, 0, 1), 90)   # gafler legges ned; terskelen ligger allerede
     lay = to_bed(lay).translate((0, i * 12.0, 0))
     plate = lay if plate is None else plate.union(lay)
-stl(plate, 'sluse_MA_gafler_og_terskel.stl')
+stl(plate, 'sluse_v4_gafler_og_terskel.stl')
 print('eksport ferdig')

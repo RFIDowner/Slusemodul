@@ -2,17 +2,39 @@
 
 Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RFID-spoler, slik at hver chipring leses sikkert ved hjemkomst. Alle deler printes i PETG på Bambu Lab A1 (maks 256 × 256 × 256 mm).
 
-## Sluse M+A (gjeldende testversjon)
+## Versjoner
 
-Ett kar på 200 × 150 mm i stedet for tre moduler:
-- **Forgang (0–90 mm):** elektronikkammer under gulvet, lokk fra undersiden med pakning. Neste due venter her, utenfor lesesonen.
-- **Leser (90–200 mm):** rett 10 × 10 cm-spole i lomme under 4 mm gulv. Spolen presses opp nedenfra og holdes av fire klikk-neser.
-- **Gafler i utgangen:** fem Ø6-gafler hengende til 3 mm over gulvet, mot en terskelstang på slusesiden. De svinger bare innover.
-- **Klikk-feste uten skruer:** veggene har tapper ned gjennom gulvet i spoledelen, og taket klikker inn i et spor på utsiden av veggene.
+| Versjon | Hva | Status |
+|---|---|---|
+| **v4** | **Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste** | **Gjeldende – STL og STEP klar** |
+| v3 | Tre moduler A–M–B med svalehaleskjøt (rett spole + diamantspole) | Erstattet av v4. Modul B er printet. |
+| v2 | Ett kar med to spoler og sidekammer | Kun tegning |
+| v1 | Første tegning, én diamantspole | Kun tegning |
 
-Filer: `stl/sluse_MA/` (print, ingen støtte) og `step/sluse_MA/` (montert, til Fusion). Kjøpedeler: aksel Ø3 × 130 rustfri, Ø2 silikonsnor til lokket, 4 skruer M3 × 8 til lokket.
+Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## Konsept (v3)
+## v4 – gjeldende modell
+
+Ett kar på 200 × 150 mm, gulvet 32 mm over landingsbrettet:
+- **Forgang (0–90 mm):** elektronikkammer under gulvet. Lokk fra undersiden med fire M3-skruer og spor for Ø2 silikonsnor. Hull i sideveggen for PG7-kabelnippel.
+- **Leser (90–200 mm):** rett 10 × 10 cm-spole i lomme under 4 mm gulv. Spolen presses opp nedenfra, og fire fjærende klikk-neser holder den. Kabelen går inn i kammeret gjennom et hull høyt i skilleveggen.
+- **Gafler i utgangen:** fem Ø6 × 116 mm som henger til 3 mm over gulvet mot en terskelstang på slusesiden. De svinger bare innover.
+- **Klikk-feste uten skruer:** veggene har tre tapper hver ned gjennom gulvet i spoledelen. Taket klikker inn i et spor på utsiden av veggenes topplist.
+
+| Fil | Innhold |
+|---|---|
+| `stl/v4/` | Kar, lokk, vegg høyre/venstre, tak, gafler + terskel. Print-orientert, ingen støtte. |
+| `step/v4/` | Samme deler i montert posisjon, og `sluse_v4_sammenstilling.step` med alt samlet (inkl. spole og aksel som referanse). |
+| `tegninger/v4/` | Bilder av montert modell og undersiden. |
+| `generator/sluse_v4_step.py` | Lager alle v4-filene (krever `pip install cadquery`). |
+
+Kjøpedeler: aksel Ø3 × 130 mm rustfri, Ø2 silikonsnor, 4 × M3 × 8 mm skruer til lokket.
+
+Ikke testet på print ennå: klaringene på klikk-festene (standardverdier for PETG) og at klikk-nesene passer spolen (dimensjonert for nøyaktig 100 × 100 mm ytre mål).
+
+Mulig endring senere: la gaflene henge utenfor karets endevegg, slik at karkanten blir stopperen og terskelstangen kan fjernes.
+
+## v3 – tre moduler (erstattet av v4)
 
 Slusa består av tre moduler som skyves sammen ovenfra med svalehaleskjøt:
 
@@ -30,7 +52,7 @@ Slusa består av tre moduler som skyves sammen ovenfra med svalehaleskjøt:
 
 Bakgrunnen for høydevalget (ring 9–14 mm over viklingen, ikke 5–10 cm) står i [`analyse/coil-hoyde-rapport.md`](analyse/coil-hoyde-rapport.md).
 
-## Status
+## Status (v3-deler)
 
 | Del | Status |
 |---|---|
@@ -39,7 +61,7 @@ Bakgrunnen for høydevalget (ring 9–14 mm over viklingen, ikke 5–10 cm) stå
 | Modul B – takpanel | STL klar |
 | Modul B – bobs, stoppstang, sperrelister | ikke laget ennå |
 | Hele v3 (A + M + B) som STEP, tre bodies | klar |
-| Sluse M+A (ett kar, klikk-feste, gafler) | STL og STEP klar |
+| v4 – ett kar, klikk-feste, gafler | STL og STEP klar |
 | Modul A og M – printbare delfiler | ikke laget ennå |
 | Klikk-/snapp-feste i stedet for skruer | planlagt |
 
