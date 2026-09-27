@@ -28,12 +28,17 @@ Bakgrunnen for høydevalget (ring 9–14 mm over viklingen, ikke 5–10 cm) stå
 | Modul B – veggpanel høyre/venstre | STL klar |
 | Modul B – takpanel | STL klar |
 | Modul B – bobs, stoppstang, sperrelister | ikke laget ennå |
-| Modul A og M | kun tegnet (v3) |
+| Hele v3 (A + M + B) som STEP, tre bodies | klar |
+| Modul A og M – printbare delfiler | ikke laget ennå |
 | Klikk-/snapp-feste i stedet for skruer | planlagt |
 
 ## Mapper
 
 - `stl/modul_B/` – ferdige STL-filer, allerede lagt i print-orientering (ingen støtte).
+- `step/` – STEP-filer til Fusion, i montert posisjon:
+  - `sluse_v3_komplett_3_bodies.step` – hele slusa, der A, M og B er hver sin body (kar, vegger og tak smeltet sammen per modul).
+  - `sluse_v3_modul_*.step` – én modul per fil.
+  - `step/modul_B/` – modul B delt opp i de fire delene som printes (kar, vegg høyre/venstre, tak), og en sammenstilling.
 - `generator/` – Python-skript som lager STL-ene. Alle mål er parametre øverst i hver fil.
 - `tegninger/v1…v3/` – tekniske tegninger (SVG/PNG) og skriptene som lager dem.
 - `analyse/` – rapport om spolehøyde og lesesikkerhet, med Biot–Savart-modellen av spolen.
@@ -47,7 +52,13 @@ python generator/modul_B_vegg.py
 python generator/modul_B_tak.py
 ```
 
-STL-ene skrives til `stl/modul_B/`. Forhåndsvisninger (SVG) havner i samme mappe, men holdes utenfor git.
+STL-ene skrives til `stl/modul_B/`. STEP-filene lages med `generator/modul_B_step.py` og `generator/sluse_v3_step.py` (krever `pip install cadquery`). Forhåndsvisninger (SVG) havner i samme mappe, men holdes utenfor git.
+
+## STEP i Fusion
+
+- **Som eget design:** File → Open → Open from my computer → velg `.step`.
+- **Inn i et design du jobber med:** last opp filen i Data Panel, høyreklikk den og velg **Insert into Current Design**.
+- Modellene kommer inn som solider uten parametre. Bruk Press/Pull, skisser og Combine for å endre dem.
 
 ## Print-innstillinger (PETG, A1)
 
