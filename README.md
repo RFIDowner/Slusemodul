@@ -2,6 +2,16 @@
 
 Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RFID-spoler, slik at hver chipring leses sikkert ved hjemkomst. Alle deler printes i PETG på Bambu Lab A1 (maks 256 × 256 × 256 mm).
 
+## Sluse M+A (gjeldende testversjon)
+
+Ett kar på 200 × 150 mm i stedet for tre moduler:
+- **Forgang (0–90 mm):** elektronikkammer under gulvet, lokk fra undersiden med pakning. Neste due venter her, utenfor lesesonen.
+- **Leser (90–200 mm):** rett 10 × 10 cm-spole i lomme under 4 mm gulv. Spolen presses opp nedenfra og holdes av fire klikk-neser.
+- **Gafler i utgangen:** fem Ø6-gafler hengende til 3 mm over gulvet, mot en terskelstang på slusesiden. De svinger bare innover.
+- **Klikk-feste uten skruer:** veggene har tapper ned gjennom gulvet i spoledelen, og taket klikker inn i et spor på utsiden av veggene.
+
+Filer: `stl/sluse_MA/` (print, ingen støtte) og `step/sluse_MA/` (montert, til Fusion). Kjøpedeler: aksel Ø3 × 130 rustfri, Ø2 silikonsnor til lokket, 4 skruer M3 × 8 til lokket.
+
 ## Konsept (v3)
 
 Slusa består av tre moduler som skyves sammen ovenfra med svalehaleskjøt:
@@ -29,6 +39,7 @@ Bakgrunnen for høydevalget (ring 9–14 mm over viklingen, ikke 5–10 cm) stå
 | Modul B – takpanel | STL klar |
 | Modul B – bobs, stoppstang, sperrelister | ikke laget ennå |
 | Hele v3 (A + M + B) som STEP, tre bodies | klar |
+| Sluse M+A (ett kar, klikk-feste, gafler) | STL og STEP klar |
 | Modul A og M – printbare delfiler | ikke laget ennå |
 | Klikk-/snapp-feste i stedet for skruer | planlagt |
 
