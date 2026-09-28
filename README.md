@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v4.2** | **Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet.** | **Gjeldende – STL og STEP klar** |
+| **v4.3** | **Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav** | **Gjeldende – STL og STEP klar** |
+| v4.2 | Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet. | Erstattet av v4.3. Karet er printet. |
 | v4.1 | Som v4, men vegger og tak er én hette. To print totalt. | Erstattet av v4.2 |
 | v4 | Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste | Erstattet av v4.1 (kar, lokk og gafler er like) |
 | v3 | Tre moduler A–M–B med svalehaleskjøt (rett spole + diamantspole) | Erstattet av v4. Modul B er printet. |
@@ -15,7 +16,29 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v4.2 – gjeldende modell
+## v4.3 – gjeldende modell
+
+Erfaring fra v4.2-printen: klikk-nesene som holder spolen er perfekte og er uendret. Endringene:
+
+- **Lokket** under el-rommet er løftet 4 mm over brettet, så det aldri står i vann. Det skyves inn fra inngangsenden i spor (kile under og skinne over, begge med 45° så de printes uten støtte) og låses med en klikk-tunge bak endeveggen. Fingerhull Ø7 i tungen: løft tungen og dra. Tre dreneringsslisser ved skilleveggen. Ingen skruer, ingen pakning.
+- **Leseren** (35 × 15 × 1 mm) sitter i tørt rom, i en holder i hjørnet ved skilleveggen. Den skyves inn mot skilleveggen og holdes av en liten kul. Kabler ut i begge ender.
+- **Skilleveggen** har to slisser, begge åpne nedenfra: 2 mm sprekk for spoletrådene rett foran leserens ende, og 5 mm slisse for strømkabelen. Tettes med Sika etter at kablene er lagt. Det er de eneste åpningene inn i el-rommet.
+- **Strømkabelen** kommer inn under sideveggen gjennom en slisse 5 × 6 mm i underkanten, rett etter skilleveggen. PG7-hullet er borte.
+- **PigeonPal-PCB** henger under gulvet på tre avstandsklosser med styretapper i H4, H3 og H1 (mål fra KiCad-filen), og holdes av to fjærende kroker. Komponentsiden vender ned mot lokket. Pluggkanten (J9, J3, J4) vender mot −y med 55 mm fri plass foran pluggene. Bøy krokene ut for å ta av kortet.
+- **Gaflene** har en 8-kantet nav på 21 mm langs akselen. Fem naver fyller 105 av 110 mm, så de holder avstanden selv med 1 mm mellom hver. Stangen ligger flush med navet på utsiden, så gaffelen ligger flatt i printen.
+- **Fjernet:** ribbene under leseren (107 mm broer i printen, ingen funksjon) og det blinde Ø6-hullet i skilleveggen.
+- Slissene for veggtappene har runde ender.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v4.3/sluse_v4.3_print1_kar_og_gafler.stl` – kar (gulvet ned) + 5 gafler | 200 × 239 × 32 mm |
+| 2 | `stl/v4.3/sluse_v4.3_print2_hette_og_lokk.stl` – hette (taket ned) + lokk (oversiden ned) | 200 × 230 × 133 mm |
+
+Sammenstillingen `step/v4.3/sluse_v4.3_sammenstilling.step` har kortet, leseren, spolen og akselen som referanser. Bilder i `tegninger/v4.3/`. Generator: `generator/sluse_v4_3_step.py`.
+
+Ikke testet på print: lokkets spor (0,3 mm klaring), klikk-tungen, krokene på kortet og leserholderen (0,15 mm kul).
+
+## v4.2 – 8-kantede gafler mot karkanten (erstattet av v4.3)
 
 Som v4.1, med to endringer i utgangen:
 
