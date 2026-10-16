@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v5** | **Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand** | **Gjeldende – STL og STEP klar, ikke printet** |
+| **v6** | **Ett stykke: Stigs sluse med spisse portaler, forgang med el-rom under gulvet, ribber, spole i lomme, skuff fra siden** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v5 | Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand | Erstattet av v6 (to deler, kar + hette) |
 | v4.3 | Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav | Erstattet av v5 (gafler og kortfeste er like) |
 | v4.2 | Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet. | Erstattet av v4.3. Karet er printet. |
 | v4.1 | Som v4, men vegger og tak er én hette. To print totalt. | Erstattet av v4.2 |
@@ -17,7 +18,29 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v5 – gjeldende modell
+## v6 – gjeldende modell
+
+Utgangspunktet er Stigs ett-stykks sluse «nyeste antenne løsning» (`stl/v5/`): kar 128 × 120 mm med spiss døråpning i begge ender og spiler i veggen. v6 beholder prinsippet, ett stykke printet stående, og legger til det v5 hadde under gulvet.
+
+- **Gulvplate 212 × 128 mm,** 32 mm over brettet, flat hele veien. Forgang x 0..88 med el-rom under, skillevegg, kar 90..212 med spolelommen under gulvet (6 mm dyp, fire fjærende felt med klikk-nese, som v4.3). De siste 40 mm av gulvet mot slaget har ingen vegger.
+- **Fire ribber over forgangen,** 4 mm tykke, hver med spiss døråpning innvendig og flat topp, 17 mm åpning mellom. En toppramme, bjelke langs hver langside bundet av ribbe 1 og portalene, binder dem. Hvert mellomrom i veggene, mellom ribber og mellom spiler, har spiss topp med samme 38° som døråpningen. Ingen broer i modellen.
+- **Portaler** ved x 88 og 168 med samme døråpning: 116 mm bred, rette sider til 113 mm, topp i 158, vegghøyde 165. Buen er to rette linjer med 38° fra vannrett, så den printes uten støtte. Vinkelen er én parameter i generatoren.
+- **Karets sidevegger** har to spiler à 10 mm med 18 mm åpning, bunnbånd og toppbånd 12 mm.
+- **El-rom** 28 mm høyt: kort på tre tapper og to kroker, komponentsiden ned. Leserholder ved skilleveggen med 1,5 mm bredere og 0,2 mm høyere spor enn v4.3. Spoletråder og strømkabel gjennom slisser i skilleveggen (Sika).
+- **Skuffen** skyves inn fra −y-siden, kortsiden først, 4 mm over brettet, mellom fire kiler og fire stoppere på endeveggen og skilleveggen. Tunge i kanten ved åpningen med 2 mm nese som klikker opp bak veggkanten, usynlig utenfra. Åpne: negl eller kniv i hakket under tungen, dra ned, trekk ut. Ingen fingerhull. Tre dreneringsslisser.
+- Ingen gafler i v6 ennå. Festeører kommer i en senere versjon.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v6/sluse_v6_print_kar_og_lokk.stl` – kar stående + lokk flatt ved siden av | 212 × 221 × 197 mm |
+
+Støtte i printen: under hele gulvet (el-rom og spolelomme), trekkes ut nedenfra. Ingen andre steder. Karet er 371 cm³, rundt 470 g PETG.
+
+Sammenstillingen `step/v6/sluse_v6_sammenstilling.step` (med kort, leser og spole som referanse). Bilder i `tegninger/v6/`, laget av `generator/render_v6.py`. Generator: `generator/sluse_v6_step.py` (krever `pip install cadquery`).
+
+Ikke testet på print ennå: buen på 38° i PETG, lokktungen (nese 2 mm, holder 0,7 mm), og at støtten under gulvet lar seg trekke ut uten å skade klikk-nesene for spolen.
+
+## v5 (erstattet av v6)
 
 Printproblemene i v4.3 er borte: spalten for lokket ga en 145 mm bro i karprinten, veggtappene var for korte og stive (ca. 8 % tøyning) og sto på tvers av lagene, og rennene og slissene lå i første lag mot platen. I v5 ligger alle fjærer i printplanet med tøyning under 1 %, og ingenting ligger i første lag.
 
