@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v4.3** | **Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav** | **Gjeldende – STL og STEP klar** |
+| **v5** | **Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v4.3 | Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav | Erstattet av v5 (gafler og kortfeste er like) |
 | v4.2 | Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet. | Erstattet av v4.3. Karet er printet. |
 | v4.1 | Som v4, men vegger og tak er én hette. To print totalt. | Erstattet av v4.2 |
 | v4 | Ett kar (200 mm): forgang med elektronikk + rett spole, gafler, klikk-feste | Erstattet av v4.1 (kar, lokk og gafler er like) |
@@ -16,7 +17,26 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v4.3 – gjeldende modell
+## v5 – gjeldende modell
+
+Printproblemene i v4.3 er borte: spalten for lokket ga en 145 mm bro i karprinten, veggtappene var for korte og stive (ca. 8 % tøyning) og sto på tvers av lagene, og rennene og slissene lå i første lag mot platen. I v5 ligger alle fjærer i printplanet med tøyning under 1 %, og ingenting ligger i første lag.
+
+- **Skuffen (lokket)** skyves inn fra inngangsenden som før, 4 mm over brettet, så slusa kan stå montert. Endeveggen er åpen under lokket, så det finnes ingen spalte. Fire korte kiler under og fire stoppere over (15 mm hver, i sideveggene) fører lokket. Bakerst i lokket er en tunge (2 mm tykk, 20 mm lang) som fjærer ned, med nese som klikker bak en kloss under gulvet når lokket er helt inne. Åpne: finger i hullet i tungen, dra ned, skyv ut. Ingen pakning, ingen skruer.
+- **Hetta** har ingen tapper gjennom gulvet, og karet har ingen renner. Ved inngangen henger en L-krok per vegg ned på utsiden av endeveggen, med nese i et hakk (utenfor løpet). Ved slaget henger en flik med vindu per vegg, og en vannrett fjærbjelke i karets endevegg (to slisser) klikker ut gjennom vinduet. Montering: hekt inngangsenden, senk slagenden til det klikker. Løsne: trykk de to knappene bak på karet inn, og løft.
+- **Taket** er ramme (to skinner og to tverrstykker) med en flygende due i midten og fire fjærlinjer. Største åpning 29 mm, målt som største innskrevne sirkel. Generatoren sjekker at ingen åpning er over 32 mm.
+- **Spiler:** 4 à 10 mm per vegg, 28,8 mm lysåpning (v4.3: 7 à 8 mm, 16 mm).
+- Uendret: gafler med nav, aksel, kortfeste, leserholder, spoleneser, kabelslisser i skilleveggen, strømkabel under sideveggen.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v5/sluse_v5_print1_kar_og_gafler.stl` – kar (gulvet ned) + 5 gafler | 201 × 239 × 32 mm |
+| 2 | `stl/v5/sluse_v5_print2_hette_og_lokk.stl` – hette (taket ned, kroker og fliker øverst) + lokk (undersiden ned, nesen opp) | 206 × 230 × 148 mm |
+
+Sammenstillingen `step/v5/sluse_v5_sammenstilling.step` (med kort, leser, spole og aksel som referanse), delene hver for seg i `step/v5/` og `stl/v5/`. Bilder i `tegninger/v5/`, laget av `generator/render_v5.py`. Generator: `generator/sluse_v5_step.py` (krever `pip install cadquery shapely`).
+
+Ikke testet på print ennå: klaringene krok/hakk (0,3 mm) og flik/knapp (0,4 mm), og at lokktungen klikker med passe kraft (nesen er 1,6 mm høy, klossen holder 0,7 mm). Duesilhuetten er et første utkast og kan byttes fritt, generatoren måler åpningene på nytt.
+
+## v4.3 (erstattet av v5)
 
 Erfaring fra v4.2-printen: klikk-nesene som holder spolen er perfekte og er uendret. Endringene:
 
