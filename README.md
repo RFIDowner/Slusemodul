@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v6** | **Ett stykke: Stigs sluse med spisse portaler, forgang med el-rom under gulvet, ribber, spole i lomme, skuff fra siden** | **Gjeldende – STL og STEP klar, ikke printet** |
+| **v7** | **To deler: plint (bunn med el-rom og spolelomme) og hette (fire takstoler med kryss) som står i hull i plinten. Fire splinter. Ingen støtte i printen** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v6 | Ett stykke: Stigs sluse med spisse portaler, forgang med el-rom under gulvet, ribber, spole i lomme, skuff fra siden | Erstattet av v7 (krevde støtte under hele gulvet) |
 | v5 | Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand | Erstattet av v6 (to deler, kar + hette) |
 | v4.3 | Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav | Erstattet av v5 (gafler og kortfeste er like) |
 | v4.2 | Som v4.1, men 8-kantede gafler som hviler mot karkanten. Terskelstangen er fjernet. | Erstattet av v4.3. Karet er printet. |
@@ -18,7 +19,26 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v6 – gjeldende modell
+## v7 – gjeldende modell
+
+v6 delt i to etter Stigs forslag: stolpene i hetta går rett ned i hull i plinten, så ingen klips eller fjærer trengs. Begge delene printes uten støtte.
+
+- **Plinten** er v6 sin bunn: gulvplate 212 × 128 mm, 32 mm høy, el-rom under forgangen, skillevegg, spolelomme under karet, skuff fra −y-siden. Innenfor hver langsidevegg står en kloss under hver stolpe (åtte i alt), 13,4 mm lang og 7 mm inn fra veggen. I klossen er stolpehullet: 10,4 × 3,9 mm, 22 mm dypt fra gulvflaten, 0,5 mm skrå i kanten, 3 mm hull videre ned. Klossene i forgangen henger fra gulvet og stopper 8,5 mm over brettet, så skuffen går under. Printes med gulvet ned; el-rom og spolelomme er da åpne oppover.
+- **Hetta** er fire like takstoler med samme spisse døråpning som v6 (116 bred, rette sider til 113, topp 158, 38°), jevnt fordelt fra x 1,6 til 172 med 43,5 mm lysåpning, bundet av en toppramme 5 × 10 mm langs hver langside. Beina er 10 mm tykke langs løpet og 5 mm brede på tvers, helt opp til toppen; gavlen over døråpningen mellom dem er 4 mm. Tappen er de midterste 3,5 mm av beinet og går 22 mm ned i hullet, klaring 0,2 mm per side. Hetta er 126 mm bred, så plintkanten stikker 1 mm utenfor. Et kryss av to avstivere 4 × 4 mm på 45° per side: hver går fra foten av en endestolpe, gjennom de to mellomstolpene (82 og 136 mm over gulvet), og inn i toppramma ved den andre endestolpen; de møtes midt i åpningen mellom stolpe 2 og 3. Ingen spiler, ingen bunnlist. Stig vet at duene får hodet inn mellom stolpene; 43 mm er nær det duefeller bruker mellom «bobs», så dette skal ses an på print. Printes med toppramma ned, 187 mm høy, med brim, uten overheng utover krysset på 45°.
+- **Feste:** 4,2 mm vannrett hull gjennom plintvegg, kloss og stolpe ved første og siste takstol, begge sider. En printet splint (4 mm pinne med hode, slisset på langs, to tunger med 0,4 mm mothake som klikker bak klossen, tøyning 0,7 %) i hvert hull. M4 med mutter passer i samme hull. Montering: sett hetta rett ned, fire splinter inn. Løsne: dra splintene ut.
+- **Flyttet for å gi plass til klossene:** leseren ligger 8 mm lenger inn fra −y-veggen (y −52..−37), strømkabelslissen i skilleveggen ved y −30..−25, spolens −y-nese ved x 128 og vinduet for avstemmingskortet ved x 176..208.
+- **Skuffen** som v6.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v7/sluse_v7_print1_plint_lokk_splinter.stl` – plint (gulvet ned) + skuff + 4 splinter | 212 × 221 × 32 mm |
+| 2 | `stl/v7/sluse_v7_hette.stl` – hette (toppramma ned, brim) | 170 × 126 × 187 mm |
+
+Ingen støtte i noen av printene. Plint 169 cm³, hette 151 cm³ (massivt volum; sliceren med to skall og 15 % fyll gir mindre i plast). Sammenstillingen `step/v7/sluse_v7_sammenstilling.step` (med kort, leser og spole som referanse), delene i `step/v7/`. Bilder i `tegninger/v7/`, laget av `generator/render_v7.py`. Generator: `generator/sluse_v7_step.py`.
+
+Ikke testet på print ennå: 0,2 mm klaring i hullene, 165 mm frie stolper på 10 × 5 mm i printen (krysset binder dem for hver 50 mm langs løpet, ikke på tvers), splintens mothake.
+
+## v6 (erstattet av v7)
 
 Utgangspunktet er Stigs ett-stykks sluse «nyeste antenne løsning» (`stl/v5/`): kar 128 × 120 mm med spiss døråpning i begge ender og spiler i veggen. v6 beholder prinsippet, ett stykke printet stående, og legger til det v5 hadde under gulvet.
 
