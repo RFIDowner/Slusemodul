@@ -14,16 +14,29 @@ Arbeidsform: ett punkt om gangen. Claude foreslår med begrunnelse → Stig sier
 
 ---
 
-## 2026-10-17 (Stig + Claude) — v7.1
+## 2026-10-17 (Stig + Claude) — v7.1 og v7.2
 
 ### Status
 | | |
 |---|---|
-| Gjeldende modell | v7.1 (`generator/sluse_v7_1_step.py`, filer i `step/v7.1/`, `stl/v7.1/`, `tegninger/v7.1/`). Stig har sett på STEP i Fusion |
+| Gjeldende modell | v7.2 (`generator/sluse_v7_2_step.py`, filer i `step/v7.2/`, `stl/v7.2/`, `tegninger/v7.2/`). Stig har sett på STEP i Fusion, committet |
+| v7.1 | Committet (`3040d58`), egne mapper |
 | v7 | Uendret, slik den er committet i `73ecaaf` |
-| Neste | Fanggafler ved utgangen (Stigs forslag: ører, tverrstang i printen, kneppbare gafler, rett gavl) → print |
+| Neste | Print v7.2 (plint, hette, gafler) og se an antakelsene under |
 
-### Gjort i dag (v7.1)
+### Gjort i dag, kveld: fanggafler (v7.2)
+
+- **Stig spurte om stolpemål og gafler.** Claude foreslo først aksel og stoppstang i Ø3,4 hull gjennom beina i siste takstol (z 108 og 92), med skisse. Stig kom med et bedre forslag: forleng de to siste stolpene med ører, print tverrstangen i ørene i samme print (hetta står på hodet, så stangen havner på plata), kneppbare gafler som i v4, og rett gavl i siste takstol som stopper. Claude: enig, med tre tillegg: stangen må være flat under (ikke rund) for første lag, navet bør være et nøkkelhull i stedet for en fjærende C-klips (C-klips gir ca. 1 % tøyning, på grensen), og overliggeren må stikke litt ut så gaflene hviler mot den av egen tyngde. Stig: «bare lag det som du foreslår, vi holder høyden».
+- **Bygd som v7.2** (ikke oppå v7.1, som ikke er committet ennå; regel 6). Mål i README. Generatoren sjekker kollisjoner mellom gafler, hette, plint og spole (alle 0), nav–nav-luft 0,5 mm, gaffel–gulv 2,9 mm.
+- **Ørene er på toppramma, ikke på stolpene.** Stig sa «forlenge de 2 siste stolpene med to ører»; siden stangen må ligge på plata, er ørene toppramma forlenget 13,5 mm forbi siste takstol. Stolpene selv er uendret.
+- **Hvorfor navet har spiss:** hullet må ha 45° tak (ingen flate over hullet i printen), og veggen over taket trenger 2 mm. Spissen vender inn i slaget og er ikke i veien for noe.
+- **Hvorfor slissen vender mot gavlen:** vendte den mot slaget, ville den peke opp når gaffelen står vannrett, og gaffelen falt av stangen når en due dytter den helt opp. Mot gavlen peker slissen ned i den stillingen, og gaffelen kan bare løftes av for hånd.
+- **Hvorfor overliggeren stikker 4 mm ut:** navet må gå klar av gavlplata (3 mm i ro, 1,3 mm i sving). Da henger stangen 1 mm innenfor overliggerens ytterkant, og gaffelen hviler mot den med 1,3° helling. Uten utstikket hadde gaffelen hengt fritt med 2 mm slark og stoppet først oppe ved navet.
+- **Antakelser som skal ses an på print:** 3 mm flate under tverrstangen i første lag; 0,3 mm klaring stang–hull og stang–slisse; 1,3° helling holder til at gaflene faller tilbake; PETG-gafler på 157 mm er stive nok (6 mm 8-kant, 5,9 cm³).
+- **Stig spurte om gaflene kan hoppe av.** Svar: bare hvis gaffelen står vannrett inn i slaget innenfor ±3° (stang 6 × 8 mot slisse 6,3) og navet samtidig løftes 10,5 mm rett opp. En due som dytter, svinger den forbi og låser igjen. Alternativ om det trengs: slissen 45° skrått. Stig: behold det.
+- Ikke i prosjektet: Claudes skisse av første forslag ligger i scratchpad, ikke i repoet. En fremmed fil `stl/v4.3/bobil kjøkkenhylle nederst.stl` ligger usporet i repoet (Stigs), ikke committet.
+
+### Gjort i dag, formiddag (v7.1)
 
 - **Store STL i Bambu:** Generatorens STL er i mm og har riktig størrelse. Filene Stig eksporterte fra Fusion («Ai sluse bunn», «Ai sluse vegger og tak») var 10× for store fordi Fusion leste STL-en som cm. Slettet. Stig importerer nå generatorfilene rett i Bambu Studio, og det fungerer.
 - **Hull i −y-veggen ved slaget (Stig fant det):** vinduet for avstemmingskortet (x 176..208, 8 mm høyt) gikk i v7 tvers gjennom ytterveggen. Feil fra flyttingen i v7; i v6 var veggen hel. Rettet i v7.1 med Stigs OK: utsparingen stopper på innsiden av veggen, ytterveggen er hel 2,4 mm. Kortet har 10,9 mm plass ved siden av lomma (v6: 11,9).

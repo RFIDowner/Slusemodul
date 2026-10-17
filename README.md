@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v7.1** | **Som v7, med hel yttervegg ved avstemmingskortet og fire festeører med skruehull** | **Gjeldende – STL og STEP klar, ikke printet** |
+| **v7.2** | **Som v7.1, med fem fanggafler ved utgangen: rett gavl med overligger i siste takstol, tverrstang i ører på toppramma, gafler med nøkkelhull-nav** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v7.1 | Som v7, med hel yttervegg ved avstemmingskortet og fire festeører med skruehull | Erstattet av v7.2 (plint, skuff og splinter er like) |
 | v7 | To deler: plint (bunn med el-rom og spolelomme) og hette (fire takstoler med kryss) som står i hull i plinten. Fire splinter. Ingen støtte i printen | Erstattet av v7.1 (hull rett ut i −y-veggen ved slaget) |
 | v6 | Ett stykke: Stigs sluse med spisse portaler, forgang med el-rom under gulvet, ribber, spole i lomme, skuff fra siden | Erstattet av v7 (krevde støtte under hele gulvet) |
 | v5 | Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand | Erstattet av v6 (to deler, kar + hette) |
@@ -20,7 +21,28 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v7.1 – gjeldende modell
+## v7.2 – gjeldende modell
+
+Som v7.1, med fanggafler ved utgangen etter Stigs forslag. Plinten, skuffen og splintene er uendret.
+
+- **Siste takstol har rett gavl.** Døra er et rektangel 116 × 113 mm (høyden er holdt). Over den ligger en overligger, 3 mm høy, som stikker 4 mm ut mot slaget (til x 173) og har 45° skrå oppover på begge sider. Gavlplata over er 4 mm som før, men rett helt opp til toppramma. Overliggeren er stopperen for gaflene.
+- **Ører og tverrstang.** Toppramma (5 × 10 mm) er forlenget 13,5 mm forbi siste takstol på begge sider, til x 185,5. Mellom ørene ligger en tverrstang 6 × 8 mm (6 langs løpet, 8 høy) med 1,5 mm fas på hjørnene, oversiden i flukt med toppen av hetta. Hetta printes på hodet, så stangen ligger med en 3 mm flate rett på plata, som toppramma. Ingen bro, ingen støtte. Hetta blir 184 mm lang på plata.
+- **Fem gafler** henger fra tverrstangen rett bak siste takstol: 8-kant stang 6 mm (som v4.3), 157 mm fra navsenter til tupp, tuppen 3 mm over gulvet. Hver gaffel hviler av egen tyngde mot overliggerens ytterkant, 1,3° inn i slaget. En due fra løpet dytter gaffelen inn i slaget, den svinger fritt. En due fra slaget presser gaffelen mot overliggeren, den står fast.
+- **Nøkkelhull-nav.** Navet er 22 × 13 mm med en spiss på 8,5 mm mot slaget. Hullet er en 8-kant med 45° tak (inskrevet radius 4,57, 0,3 mm klaring til stangens hjørner), og en slisse 6,3 mm bred ut mot gavlen. Tverrstangen (6 tynn, 8 høy) går bare gjennom slissen når gaffelen peker vannrett inn i slaget: hold gaffelen vannrett, senk navet over stangen, slipp. Hengende, og i hele svingen, står stangens 8 mm på tvers av slissen, så gaffelen kan ikke falle av. Av igjen: løft gaffelen til vannrett og dra opp. Ingen fjæring.
+- **Avstand.** Navene er 22 mm lange med 22,5 mm deling, så de fem navene fyller 112 av 116 mm mellom ørene og holder avstanden selv (0,5 mm luft mellom hvert, 2 mm til ørene). Gaflene står ved y 0, ±22,5, ±45; ytterste gaffel 10 mm fra beinet. Navet går klar av gavlplata med 3 mm i ro og 1,3 mm når gaffelen svinger.
+- **Print.** Gaflene printes liggende på siden mot gavlen: navets to føtter ved slissen og stangens flate ligger på plata, taket over hullet er 45°. Fem i ett print.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v7.2/sluse_v7.2_print1_plint_lokk_splinter.stl` – plint (gulvet ned) + skuff + 4 splinter | 246 × 221 × 32 mm |
+| 2 | `stl/v7.2/sluse_v7.2_hette.stl` – hette (toppramma, ørene og tverrstangen ned, brim) | 184 × 126 × 187 mm |
+| 3 | `stl/v7.2/sluse_v7.2_print3_gafler.stl` – 5 gafler, flatt | 164 × 130 × 15 mm |
+
+Hette 172 cm³ (v7.1: 151), gaffel 5,9 cm³ hver. Sammenstillingen `step/v7.2/sluse_v7.2_sammenstilling.step`, delene i `step/v7.2/` (`sluse_v7.2_gaffel.step` er den midterste gaffelen i montert stilling). Bilder i `tegninger/v7.2/` (nye: `sluse_v7.2_gaffel*.png`, `sluse_v7.2_hette_print_stang.png`), laget av `generator/render_v7_2.py`. Generator: `generator/sluse_v7_2_step.py`.
+
+Ikke testet på print ennå: tverrstangens 3 mm flate i første lag, nøkkelhullets 0,3 mm klaring, om 1,3° helling er nok til at gaflene alltid faller tilbake mot overliggeren.
+
+## v7.1 (erstattet av v7.2)
 
 Som v7, med to endringer. Hetta, skuffen og splintene er uendret.
 
