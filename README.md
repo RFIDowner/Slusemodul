@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v7** | **To deler: plint (bunn med el-rom og spolelomme) og hette (fire takstoler med kryss) som står i hull i plinten. Fire splinter. Ingen støtte i printen** | **Gjeldende – STL og STEP klar, ikke printet** |
+| **v7.1** | **Som v7, med hel yttervegg ved avstemmingskortet og fire festeører med skruehull** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v7 | To deler: plint (bunn med el-rom og spolelomme) og hette (fire takstoler med kryss) som står i hull i plinten. Fire splinter. Ingen støtte i printen | Erstattet av v7.1 (hull rett ut i −y-veggen ved slaget) |
 | v6 | Ett stykke: Stigs sluse med spisse portaler, forgang med el-rom under gulvet, ribber, spole i lomme, skuff fra siden | Erstattet av v7 (krevde støtte under hele gulvet) |
 | v5 | Skuff-lokk uten lange spor, kroker og trykknapper for hetta, tak som flygende due, dobbel spileavstand | Erstattet av v6 (to deler, kar + hette) |
 | v4.3 | Kabelføring, kortfeste, skyvelokk løftet 4 mm, leser i tørt rom, gafler med nav | Erstattet av v5 (gafler og kortfeste er like) |
@@ -19,7 +20,21 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v7 – gjeldende modell
+## v7.1 – gjeldende modell
+
+Som v7, med to endringer. Hetta, skuffen og splintene er uendret.
+
+- **Hel yttervegg ved avstemmingskortet.** I v7 gikk vinduet for spolens avstemmingskort (x 176..208, 8 mm høyt) tvers gjennom −y-veggen, så det ble et 32 × 8 mm hull rett ut. Nå er det en utsparing på innsiden, og ytterveggen er hel med 2,4 mm. Kortet har 10,9 mm plass ved siden av spolelomma (v6: 11,9).
+- **Festeører:** to på hver kortside, i hjørnene, flate mot landingsbrettet. Hvert øre stikker 17 mm ut og er 16 mm bredt, ytterkanten flukter med langsiden. Skruehullet er 10 mm fra plintkanten: Ø4 gjennom en 6 mm flens, senket 90° til Ø8 for treskrue 3,5 mm. Over flensen er en kile på 45° tilbake til veggen, med Ø8 boring for skrutrekkeren, så øret printes uten støtte. Skrue 3,5 × 25 gir ca. 20 mm i treverket. Ørene ligger på x −17..0 og 212..229; x 0 er fortsatt plintkanten ved inngangen.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v7.1/sluse_v7.1_print1_plint_lokk_splinter.stl` – plint (gulvet ned) + skuff + 4 splinter | 246 × 221 × 32 mm |
+| 2 | `stl/v7.1/sluse_v7.1_hette.stl` – hette (toppramma ned, brim) | 170 × 126 × 187 mm |
+
+Print 1 har bare 10 mm til overs på A1-platen langs x, så det er lite rom for brim der. Plint 184 cm³. Sammenstillingen `step/v7.1/sluse_v7.1_sammenstilling.step`, delene i `step/v7.1/`. Bilder i `tegninger/v7.1/` (nytt: `sluse_v7.1_oere.png`), laget av `generator/render_v7_1.py`. Generator: `generator/sluse_v7_1_step.py`.
+
+## v7 (erstattet av v7.1)
 
 v6 delt i to etter Stigs forslag: stolpene i hetta går rett ned i hull i plinten, så ingen klips eller fjærer trengs. Begge delene printes uten støtte.
 

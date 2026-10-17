@@ -14,6 +14,25 @@ Arbeidsform: ett punkt om gangen. Claude foreslår med begrunnelse → Stig sier
 
 ---
 
+## 2026-10-17 (Stig + Claude) — v7.1
+
+### Status
+| | |
+|---|---|
+| Gjeldende modell | v7.1 (`generator/sluse_v7_1_step.py`, filer i `step/v7.1/`, `stl/v7.1/`, `tegninger/v7.1/`). Stig har sett på STEP i Fusion |
+| v7 | Uendret, slik den er committet i `73ecaaf` |
+| Neste | Fanggafler ved utgangen (Stigs forslag: ører, tverrstang i printen, kneppbare gafler, rett gavl) → print |
+
+### Gjort i dag (v7.1)
+
+- **Store STL i Bambu:** Generatorens STL er i mm og har riktig størrelse. Filene Stig eksporterte fra Fusion («Ai sluse bunn», «Ai sluse vegger og tak») var 10× for store fordi Fusion leste STL-en som cm. Slettet. Stig importerer nå generatorfilene rett i Bambu Studio, og det fungerer.
+- **Hull i −y-veggen ved slaget (Stig fant det):** vinduet for avstemmingskortet (x 176..208, 8 mm høyt) gikk i v7 tvers gjennom ytterveggen. Feil fra flyttingen i v7; i v6 var veggen hel. Rettet i v7.1 med Stigs OK: utsparingen stopper på innsiden av veggen, ytterveggen er hel 2,4 mm. Kortet har 10,9 mm plass ved siden av lomma (v6: 11,9).
+- **Festeører i v7.1 (Stig: «to ører med skruehull på hver kortside, ca. 1 cm fra kanten»):** Claude tolket «1 cm fra kanten» som hullsenteret 10 mm ut fra plintens kortside, og la ørene i hjørnene med ytterkanten i flukt med langsidene. Flens 6 mm mot brettet, Ø4 hull senket til Ø8 for treskrue 3,5 mm, kile på 45° over flensen så plinten fortsatt printes uten støtte med gulvet ned. Print 1 blir 246 × 221 mm (A1: 256), lite rom for brim langs x. Plinten står fortsatt med x 0 ved inngangen; ørene ligger på x −17..0 og 212..229.
+- PETG er bestemt (Stig 17. okt).
+- Claude skrev først endringene over v7-filene. Stig minte om regelen: hver versjon i egen mappe. Flyttet til v7.1, v7 satt tilbake til committet tilstand.
+
+---
+
 ## 2026-10-16 (Stig + Claude) — v5, v6 og v7
 
 ### Status
@@ -55,10 +74,8 @@ Arbeidsform: ett punkt om gangen. Claude foreslår med begrunnelse → Stig sier
 - Gjenstår fra samme diskusjon: loddrett pinne mellom stavene i de tre andre endeåpningene (Claudes forslag, Stig sa «lag kun duen nå»).
 
 ### Åpne spørsmål (til Stig)
-- PETG eller ASA? (ASA tåler sol bedre, PETG er enklere å printe.)
 - LED utvendig: hullet er fjernet. Hvis LED skal ut, må Jonas bekrefte header på kortet.
 - Spolens siste ~37 mm ligger på gulvet uten vegger inne i slaget. Duer som står der kan leses uten å gå gjennom. Alternativer: flytt utgangsportalen til gulvenden, flytt spolen 40 mm, eller løs det i fastvaren.
-- Festeører til slaget: ikke tegnet i v7 ennå.
 - Duesilhuetten i taket (v5) er borte i v6. Vil Stig ha den tilbake?
 
 ### Antakelser
