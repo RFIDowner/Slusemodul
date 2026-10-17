@@ -6,7 +6,8 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 | Versjon | Hva | Status |
 |---|---|---|
-| **v7.3** | **Som v7.2, men én avstiver per side i stedet for kryss (den fra foten av første stolpe)** | **Gjeldende – STL og STEP klar, ikke printet** |
+| **v7.4** | **Som v7.3, men sporet for leseren under gulvet er 1,5 mm høyere (3 mm)** | **Gjeldende – STL og STEP klar, ikke printet** |
+| v7.3 | Som v7.2, men én avstiver per side i stedet for kryss (den fra foten av første stolpe) | Erstattet av v7.4 (bare leserholderen i plinten er endret) |
 | v7.2 | Som v7.1, med fem fanggafler ved utgangen: rett gavl med overligger i siste takstol, tverrstang i ører på toppramma, gafler med nøkkelhull-nav | Erstattet av v7.3 (bare avstiverne er endret) |
 | v7.1 | Som v7, med hel yttervegg ved avstemmingskortet og fire festeører med skruehull | Erstattet av v7.2 (plint, skuff og splinter er like) |
 | v7 | To deler: plint (bunn med el-rom og spolelomme) og hette (fire takstoler med kryss) som står i hull i plinten. Fire splinter. Ingen støtte i printen | Erstattet av v7.1 (hull rett ut i −y-veggen ved slaget) |
@@ -22,7 +23,19 @@ Modulær duesluse for PigeonPal: duene går én og én over innebygde 125 kHz RF
 
 Hvorfor v4: diamantspolen i v3 er 141 mm lang langs løpet, så to duer kunne stå i lesesonen samtidig. Den rette spolen er 100 mm, og forgangen foran holder neste due utenfor lesesonen.
 
-## v7.3 – gjeldende modell
+## v7.4 – gjeldende modell
+
+Som v7.3, med én endring: **sporet for leseren** i leserholderen under gulvet er 1,5 mm høyere. Stig fant at det var for tett mellom gulvet og de to leppene. Sporet er nå 3,0 mm høyt (v7.3: 1,5 = leser 1,0 + 0,5). Leppene er fortsatt 1 mm, så skinnene går 1,5 mm lenger ned, til z 24 (kortets overside er z 21). Bredden er uendret. Hette, skuff, splinter og gafler er uendret.
+
+| Print | Fil | Mål på platen |
+|---|---|---|
+| 1 | `stl/v7.4/sluse_v7.4_print1_plint_lokk_splinter.stl` – plint (gulvet ned) + skuff + 4 splinter | 246 × 221 × 32 mm |
+| 2 | `stl/v7.4/sluse_v7.4_hette.stl` – hette (toppramma, ørene og tverrstangen ned, brim) | 184 × 126 × 187 mm |
+| 3 | `stl/v7.4/sluse_v7.4_print3_gafler.stl` – 5 gafler, flatt | 164 × 130 × 15 mm |
+
+Sammenstillingen `step/v7.4/sluse_v7.4_sammenstilling.step`, delene i `step/v7.4/`, bilder i `tegninger/v7.4/` (`sluse_v7.4_leserholder.png` er et snitt gjennom holderen), laget av `generator/render_v7_4.py`. Generator: `generator/sluse_v7_4_step.py`.
+
+## v7.3 (erstattet av v7.4)
 
 Som v7.2, med én endring etter Stigs ønske: kryssene i sideveggene er borte. Hver side har nå **én avstiver** 4 × 4 mm på 45°, den som er festet i foten av første stolpe (ved inngangen, x 6,6) og går opp gjennom de to mellomstolpene inn i toppramma ved siste takstol (x 169,6). Avstiveren fra foten av siste stolpe er fjernet. Plint, skuff, splinter og gafler er uendret.
 

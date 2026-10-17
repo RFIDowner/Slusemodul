@@ -14,21 +14,29 @@ Arbeidsform: ett punkt om gangen. Claude foreslår med begrunnelse → Stig sier
 
 ---
 
-## 2026-10-17 (Stig + Claude) — v7.1, v7.2 og v7.3
+## 2026-10-17 (Stig + Claude) — v7.1 til v7.4
 
 ### Status
 | | |
 |---|---|
-| Gjeldende modell | v7.3 (`generator/sluse_v7_3_step.py`, filer i `step/v7.3/`, `stl/v7.3/`, `tegninger/v7.3/`). Committet |
+| Gjeldende modell | v7.4 (`generator/sluse_v7_4_step.py`, filer i `step/v7.4/`, `stl/v7.4/`, `tegninger/v7.4/`). Committet og pushet |
+| v7.3 | Committet (`13c098a`) |
 | v7.2 | Committet (`9ca260a`). Stig har sett på STEP i Fusion |
 | v7.1 | Committet (`3040d58`), egne mapper |
 | v7 | Uendret, slik den er committet i `73ecaaf` |
-| Neste | Print v7.3 (plint, hette, gafler) og se an antakelsene under |
+| Neste | Print v7.4 (plint, hette, gafler) med 0,28 mm lag, og se an antakelsene under. Riller i gulvet (v7.5) når Stig har valgt mønster |
 
 ### Gjort i dag, sent: én avstiver per side (v7.3)
 
 - **Stig: kryssene i sideveggene gjør modellen rotete.** Behold bare den avstiveren som er festet i første stolpe (inngangen), ta bort den andre. Claude tolket det som avstiveren fra *foten* av første stolpe (den andre går fra foten av siste stolpe og ender oppe i toppramma ved første). Stig bekreftet: første stolpe er den første utenfra (inngangen), avstiveren sitter i kant som før. Laget som v7.3, bare `BRACE_DIRS` er endret i generatoren. Hetta 166 cm³ (v7.2: 172). Alle kollisjonssjekker 0.
 - Vurdering: én diagonal stiver veggen like godt mot skjevhet som et kryss (strekk den ene veien, trykk den andre), men uten reserve. 4 × 4 PETG over 240 mm er tynt i trykk; ses an på print.
+
+### Gjort i dag, sent: leserholderen 1,5 mm høyere (v7.4)
+
+- Stig: «i slissen som readeren skal inn i er det for tett mellom flaten og de to kantene, øk med 1,5 mm, ikke rør andre deler». Sporet mellom gulvets underside og leppene var 1,5 mm (leser 1,0 + 0,5), nå 3,0. Ny parameter `RD_SLOT_EXTRA = 1.5`. Skinnene går til z 24, kortet ligger på z 21, så det er 3 mm luft. Laget som v7.4 (egen mappe, regel 6) selv om bare plinten er endret. Committet og pushet på Stigs ordre uten Fusion-sjekk først.
+- Stig printer med 0,28 mm lag. Claude foreslo: 3 wall loops, 3 top/bottom shell layers, 10 % gyroid, brim bare på hetta. AMS-bytte mellom like ruller krever AMS lite og at begge sporene har samme filamentprofil og farge.
+- Stig vil ha struktur i gulvet (glatt for duene). Gangflaten er første lag i printen, så det må inn i modellen: riller 2 mm brede, 1 mm dype, 6 mm deling, enten på tvers av løpet (Claudes anbefaling) eller som rutenett. 3 mm gulv blir igjen, tett mot vann. Venter på Stigs valg av mønster.
+- Stig ba om å få v7.3 merget til `main`. Claude forklarte at det blir en ren fast-forward med alle versjonene, og ba om klart ja siden regelen er «aldri main». Stig: «vi lar det være».
 
 ### Gjort i dag, sent: duefiguren fra el-boksen som egen fil
 
