@@ -14,15 +14,25 @@ Arbeidsform: ett punkt om gangen. Claude foreslår med begrunnelse → Stig sier
 
 ---
 
-## 2026-10-17 (Stig + Claude) — v7.1 og v7.2
+## 2026-10-17 (Stig + Claude) — v7.1, v7.2 og v7.3
 
 ### Status
 | | |
 |---|---|
-| Gjeldende modell | v7.2 (`generator/sluse_v7_2_step.py`, filer i `step/v7.2/`, `stl/v7.2/`, `tegninger/v7.2/`). Stig har sett på STEP i Fusion, committet |
+| Gjeldende modell | v7.3 (`generator/sluse_v7_3_step.py`, filer i `step/v7.3/`, `stl/v7.3/`, `tegninger/v7.3/`). Committet |
+| v7.2 | Committet (`9ca260a`). Stig har sett på STEP i Fusion |
 | v7.1 | Committet (`3040d58`), egne mapper |
 | v7 | Uendret, slik den er committet i `73ecaaf` |
-| Neste | Print v7.2 (plint, hette, gafler) og se an antakelsene under |
+| Neste | Print v7.3 (plint, hette, gafler) og se an antakelsene under |
+
+### Gjort i dag, sent: én avstiver per side (v7.3)
+
+- **Stig: kryssene i sideveggene gjør modellen rotete.** Behold bare den avstiveren som er festet i første stolpe (inngangen), ta bort den andre. Claude tolket det som avstiveren fra *foten* av første stolpe (den andre går fra foten av siste stolpe og ender oppe i toppramma ved første). Stig bekreftet: første stolpe er den første utenfra (inngangen), avstiveren sitter i kant som før. Laget som v7.3, bare `BRACE_DIRS` er endret i generatoren. Hetta 166 cm³ (v7.2: 172). Alle kollisjonssjekker 0.
+- Vurdering: én diagonal stiver veggen like godt mot skjevhet som et kryss (strekk den ene veien, trykk den andre), men uten reserve. 4 × 4 PETG over 240 mm er tynt i trykk; ses an på print.
+
+### Gjort i dag, sent: duefiguren fra el-boksen som egen fil
+
+- Stig: «ta ut duefiguren som er på el-boksen i nyeste antenneløsning, lag den som enkeltfil, helt ren som den er». Kilden er Stigs `stl/v5/nyeste antenne løsning i stl.stl` (f3d kan ikke leses). El-boksen er en egen kropp der; fuglen er et 0,4 mm relieff på framsida (x −91,0 → −91,4) sammen med teksten PIGEONPAL. `generator/due_el_boks.py` tar omrisset (én lukket strek, 236 punkter, 28 × 30 mm) og lager `step/v5/due_el_boks.step` (der den står i Stigs modell) og `stl/v5/due_el_boks.stl` (flatt, relieffsida opp). Bare fuglen, ikke teksten.
 
 ### Gjort i dag, kveld: fanggafler (v7.2)
 
